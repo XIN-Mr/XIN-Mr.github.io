@@ -5,9 +5,9 @@
   <subtitle>Writing code is keep my heart beating only reason.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://at0506.coding-pages.com/"/>
+  <link href="http://xin_mr.gitee.io/"/>
   <updated>2020-03-07T05:07:41.501Z</updated>
-  <id>http://at0506.coding-pages.com/</id>
+  <id>http://xin_mr.gitee.io/</id>
   
   <author>
     <name>鑫.Mr</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo主题之hexo-theme-yilia-plus</title>
-    <link href="http://at0506.coding-pages.com/2019/08/01/hexo%E4%B8%BB%E9%A2%98%E4%B9%8Bhexo-theme-yilia-plus/"/>
-    <id>http://at0506.coding-pages.com/2019/08/01/hexo主题之hexo-theme-yilia-plus/</id>
+    <link href="http://xin_mr.gitee.io/2019/08/01/hexo%E4%B8%BB%E9%A2%98%E4%B9%8Bhexo-theme-yilia-plus/"/>
+    <id>http://xin_mr.gitee.io/2019/08/01/hexo主题之hexo-theme-yilia-plus/</id>
     <published>2019-08-01T03:43:00.000Z</published>
     <updated>2020-03-07T05:07:41.501Z</updated>
     
@@ -32,14 +32,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>关于npm install失败的解决方法</title>
-    <link href="http://at0506.coding-pages.com/2019/07/30/%E5%85%B3%E4%BA%8Enpm%20install%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    <id>http://at0506.coding-pages.com/2019/07/30/关于npm install失败的解决方法/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/30/%E5%85%B3%E4%BA%8Enpm%20install%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://xin_mr.gitee.io/2019/07/30/关于npm install失败的解决方法/</id>
     <published>2019-07-30T01:33:15.000Z</published>
     <updated>2020-03-07T05:07:41.502Z</updated>
     
@@ -52,14 +52,14 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>Hexo编译文档时JS或HTML混乱解决方案</title>
-    <link href="http://at0506.coding-pages.com/2019/07/26/Hexo%E7%BC%96%E8%AF%91%E6%96%87%E6%A1%A3%E6%97%B6JS%E6%88%96HTML%E6%B7%B7%E4%B9%B1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://at0506.coding-pages.com/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/26/Hexo%E7%BC%96%E8%AF%91%E6%96%87%E6%A1%A3%E6%97%B6JS%E6%88%96HTML%E6%B7%B7%E4%B9%B1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://xin_mr.gitee.io/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/</id>
     <published>2019-07-26T03:26:51.000Z</published>
     <updated>2020-03-07T05:07:41.497Z</updated>
     
@@ -72,14 +72,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客集成码云评论系统</title>
-    <link href="http://at0506.coding-pages.com/2019/07/25/Hexo%E5%8D%9A%E5%AE%A2%E9%9B%86%E6%88%90%E7%A0%81%E4%BA%91%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://at0506.coding-pages.com/2019/07/25/Hexo博客集成码云评论系统/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/25/Hexo%E5%8D%9A%E5%AE%A2%E9%9B%86%E6%88%90%E7%A0%81%E4%BA%91%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://xin_mr.gitee.io/2019/07/25/Hexo博客集成码云评论系统/</id>
     <published>2019-07-25T02:39:00.000Z</published>
     <updated>2020-03-07T05:07:41.497Z</updated>
     
@@ -92,14 +92,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客集成Gitment评论</title>
-    <link href="http://at0506.coding-pages.com/2019/07/24/Hexo%E5%8D%9A%E5%AE%A2%E9%9B%86%E6%88%90Gitment%E8%AF%84%E8%AE%BA/"/>
-    <id>http://at0506.coding-pages.com/2019/07/24/Hexo博客集成Gitment评论/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/24/Hexo%E5%8D%9A%E5%AE%A2%E9%9B%86%E6%88%90Gitment%E8%AF%84%E8%AE%BA/"/>
+    <id>http://xin_mr.gitee.io/2019/07/24/Hexo博客集成Gitment评论/</id>
     <published>2019-07-24T08:52:00.000Z</published>
     <updated>2020-03-07T05:07:41.496Z</updated>
     
@@ -112,14 +112,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客配置RSS插件</title>
-    <link href="http://at0506.coding-pages.com/2019/07/23/Hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AERSS%E6%8F%92%E4%BB%B6/"/>
-    <id>http://at0506.coding-pages.com/2019/07/23/Hexo博客配置RSS插件/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/23/Hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AERSS%E6%8F%92%E4%BB%B6/"/>
+    <id>http://xin_mr.gitee.io/2019/07/23/Hexo博客配置RSS插件/</id>
     <published>2019-07-23T07:49:00.000Z</published>
     <updated>2020-03-07T05:07:41.495Z</updated>
     
@@ -132,14 +132,14 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>gulp-babel 取消严格模式(&quot;use strict&quot;)</title>
-    <link href="http://at0506.coding-pages.com/2019/07/23/gulp-babel%E5%8F%96%E6%B6%88%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8Fuse%20strict/"/>
-    <id>http://at0506.coding-pages.com/2019/07/23/gulp-babel取消严格模式use strict/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/23/gulp-babel%E5%8F%96%E6%B6%88%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8Fuse%20strict/"/>
+    <id>http://xin_mr.gitee.io/2019/07/23/gulp-babel取消严格模式use strict/</id>
     <published>2019-07-23T01:38:00.000Z</published>
     <updated>2020-03-07T05:07:41.501Z</updated>
     
@@ -152,14 +152,14 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客使用gulp压缩静态资源</title>
-    <link href="http://at0506.coding-pages.com/2019/07/22/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8gulp%E5%8E%8B%E7%BC%A9%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/"/>
-    <id>http://at0506.coding-pages.com/2019/07/22/Hexo博客使用gulp压缩静态资源/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/22/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8gulp%E5%8E%8B%E7%BC%A9%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/"/>
+    <id>http://xin_mr.gitee.io/2019/07/22/Hexo博客使用gulp压缩静态资源/</id>
     <published>2019-07-22T08:35:00.000Z</published>
     <updated>2020-03-07T05:07:41.494Z</updated>
     
@@ -172,18 +172,18 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Git分支的创建、删除、切换</title>
-    <link href="http://at0506.coding-pages.com/2019/07/01/Git%E5%88%86%E6%94%AF%E7%9A%84%E5%88%9B%E5%BB%BA%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E5%88%87%E6%8D%A2/"/>
-    <id>http://at0506.coding-pages.com/2019/07/01/Git分支的创建、删除、切换/</id>
+    <link href="http://xin_mr.gitee.io/2019/07/01/Git%E5%88%86%E6%94%AF%E7%9A%84%E5%88%9B%E5%BB%BA%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E5%88%87%E6%8D%A2/"/>
+    <id>http://xin_mr.gitee.io/2019/07/01/Git分支的创建、删除、切换/</id>
     <published>2019-07-01T02:06:00.000Z</published>
     <updated>2020-03-07T05:07:41.494Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="1、本地创建新分支并切换到新分支"><a href="#1、本地创建新分支并切换到新分支" class="headerlink" title="1、本地创建新分支并切换到新分支"></a>1、本地创建新分支并切换到新分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git checkout -b 分支名</span></span><br></pre></td></tr></table></figure><h5 id="2、提交分支到远程仓库"><a href="#2、提交分支到远程仓库" class="headerlink" title="2、提交分支到远程仓库"></a>2、提交分支到远程仓库</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git push origin 分支名</span></span><br></pre></td></tr></table></figure><h5 id="3、切换分支"><a href="#3、切换分支" class="headerlink" title="3、切换分支"></a>3、切换分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git checkout 分支名</span></span><br></pre></td></tr></table></figure><a id="more"></a><h5 id="4、删除远程分支"><a href="#4、删除远程分支" class="headerlink" title="4、删除远程分支"></a>4、删除远程分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git push origin --delete 分支名</span></span><br></pre></td></tr></table></figure><h5 id="5、删除本地分支"><a href="#5、删除本地分支" class="headerlink" title="5、删除本地分支"></a>5、删除本地分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git branch -D 分支名</span></span><br></pre></td></tr></table></figure><blockquote><p>Tips：其他分支命令</p></blockquote><ul><li>查看当前分支 <code>git branch</code></li><li>查看所属分支 <code>git branch -a</code></li></ul>]]></content>
+    <content type="html"><![CDATA[<h5 id="1、本地创建新分支并切换到新分支"><a href="#1、本地创建新分支并切换到新分支" class="headerlink" title="1、本地创建新分支并切换到新分支"></a>1、本地创建新分支并切换到新分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git checkout -b 分支名</span><br></pre></td></tr></table></figure><h5 id="2、提交分支到远程仓库"><a href="#2、提交分支到远程仓库" class="headerlink" title="2、提交分支到远程仓库"></a>2、提交分支到远程仓库</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git push origin 分支名</span><br></pre></td></tr></table></figure><h5 id="3、切换分支"><a href="#3、切换分支" class="headerlink" title="3、切换分支"></a>3、切换分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git checkout 分支名</span><br></pre></td></tr></table></figure><a id="more"></a><h5 id="4、删除远程分支"><a href="#4、删除远程分支" class="headerlink" title="4、删除远程分支"></a>4、删除远程分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git push origin --delete 分支名</span><br></pre></td></tr></table></figure><h5 id="5、删除本地分支"><a href="#5、删除本地分支" class="headerlink" title="5、删除本地分支"></a>5、删除本地分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git branch -D 分支名</span><br></pre></td></tr></table></figure><blockquote><p>Tips：其他分支命令</p></blockquote><ul><li>查看当前分支 <code>git branch</code></li><li>查看所属分支 <code>git branch -a</code></li></ul>]]></content>
     
     <summary type="html">
     
@@ -192,18 +192,18 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>Git彻底删除历史提交记录的方法</title>
-    <link href="http://at0506.coding-pages.com/2019/06/05/Git%E5%BD%BB%E5%BA%95%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://at0506.coding-pages.com/2019/06/05/Git彻底删除历史提交记录的方法/</id>
+    <link href="http://xin_mr.gitee.io/2019/06/05/Git%E5%BD%BB%E5%BA%95%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>http://xin_mr.gitee.io/2019/06/05/Git彻底删除历史提交记录的方法/</id>
     <published>2019-06-05T02:22:00.000Z</published>
     <updated>2020-03-07T05:07:41.494Z</updated>
     
-    <content type="html"><![CDATA[<h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git <span class="built_in">log</span></span></span><br></pre></td></tr></table></figure><hr><h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git reset --hard 你复制的<span class="built_in">hash</span>值</span></span><br></pre></td></tr></table></figure><a id="more"></a><hr><h6 id="3、将当前指向的head推到git"><a href="#3、将当前指向的head推到git" class="headerlink" title="3、将当前指向的head推到git"></a>3、将当前指向的head推到git</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git push --force</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git log</span><br></pre></td></tr></table></figure><hr><h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git reset --hard 你复制的hash值</span><br></pre></td></tr></table></figure><a id="more"></a><hr><h6 id="3、将当前指向的head推到git"><a href="#3、将当前指向的head推到git" class="headerlink" title="3、将当前指向的head推到git"></a>3、将当前指向的head推到git</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git push --force</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -212,14 +212,14 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>玩转MySQL优化命令</title>
-    <link href="http://at0506.coding-pages.com/2019/05/06/%E7%8E%A9%E8%BD%ACMySQL%E4%BC%98%E5%8C%96%E5%91%BD%E4%BB%A4/"/>
-    <id>http://at0506.coding-pages.com/2019/05/06/玩转MySQL优化命令/</id>
+    <link href="http://xin_mr.gitee.io/2019/05/06/%E7%8E%A9%E8%BD%ACMySQL%E4%BC%98%E5%8C%96%E5%91%BD%E4%BB%A4/"/>
+    <id>http://xin_mr.gitee.io/2019/05/06/玩转MySQL优化命令/</id>
     <published>2019-05-06T10:05:00.000Z</published>
     <updated>2020-03-07T05:07:41.502Z</updated>
     
@@ -232,14 +232,14 @@
     </summary>
     
     
-      <category term="MySQL" scheme="http://at0506.coding-pages.com/tags/MySQL/"/>
+      <category term="MySQL" scheme="http://xin_mr.gitee.io/tags/MySQL/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客添加helper-live2d动态模型插件</title>
-    <link href="http://at0506.coding-pages.com/2019/05/05/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0helper-live2d%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B%E6%8F%92%E4%BB%B6/"/>
-    <id>http://at0506.coding-pages.com/2019/05/05/Hexo博客添加helper-live2d动态模型插件/</id>
+    <link href="http://xin_mr.gitee.io/2019/05/05/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0helper-live2d%E5%8A%A8%E6%80%81%E6%A8%A1%E5%9E%8B%E6%8F%92%E4%BB%B6/"/>
+    <id>http://xin_mr.gitee.io/2019/05/05/Hexo博客添加helper-live2d动态模型插件/</id>
     <published>2019-05-05T08:35:00.000Z</published>
     <updated>2020-03-07T05:07:41.495Z</updated>
     
@@ -252,16 +252,16 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://at0506.coding-pages.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://xin_mr.gitee.io/tags/Hexo/"/>
     
-      <category term="Linux" scheme="http://at0506.coding-pages.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://xin_mr.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>vi/vim 粘贴内容时,保留原文件内容格式</title>
-    <link href="http://at0506.coding-pages.com/2019/05/05/vi%E6%88%96vim%E7%B2%98%E8%B4%B4%E5%86%85%E5%AE%B9%E6%97%B6,%E4%BF%9D%E7%95%99%E5%8E%9F%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E6%A0%BC%E5%BC%8F/"/>
-    <id>http://at0506.coding-pages.com/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/</id>
+    <link href="http://xin_mr.gitee.io/2019/05/05/vi%E6%88%96vim%E7%B2%98%E8%B4%B4%E5%86%85%E5%AE%B9%E6%97%B6,%E4%BF%9D%E7%95%99%E5%8E%9F%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E6%A0%BC%E5%BC%8F/"/>
+    <id>http://xin_mr.gitee.io/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/</id>
     <published>2019-05-05T07:33:00.000Z</published>
     <updated>2020-03-07T05:07:41.502Z</updated>
     
@@ -274,14 +274,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://at0506.coding-pages.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://xin_mr.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>新增Hexo博客文章置顶功能</title>
-    <link href="http://at0506.coding-pages.com/2019/02/25/%E6%96%B0%E5%A2%9EHexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/"/>
-    <id>http://at0506.coding-pages.com/2019/02/25/新增Hexo博客文章置顶功能/</id>
+    <link href="http://xin_mr.gitee.io/2019/02/25/%E6%96%B0%E5%A2%9EHexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/"/>
+    <id>http://xin_mr.gitee.io/2019/02/25/新增Hexo博客文章置顶功能/</id>
     <published>2019-02-25T03:40:00.000Z</published>
     <updated>2020-03-07T05:07:41.502Z</updated>
     
@@ -294,14 +294,14 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>IDEA设置后端代码开发规范</title>
-    <link href="http://at0506.coding-pages.com/2019/01/23/IDEA%E8%AE%BE%E7%BD%AE%E5%90%8E%E7%AB%AF%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/"/>
-    <id>http://at0506.coding-pages.com/2019/01/23/IDEA设置后端代码开发规范/</id>
+    <link href="http://xin_mr.gitee.io/2019/01/23/IDEA%E8%AE%BE%E7%BD%AE%E5%90%8E%E7%AB%AF%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/"/>
+    <id>http://xin_mr.gitee.io/2019/01/23/IDEA设置后端代码开发规范/</id>
     <published>2019-01-23T02:33:00.000Z</published>
     <updated>2020-03-07T05:07:41.497Z</updated>
     
@@ -314,14 +314,14 @@
     </summary>
     
     
-      <category term="日记本" scheme="http://at0506.coding-pages.com/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+      <category term="日记本" scheme="http://xin_mr.gitee.io/tags/%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot 2.0 更新记录</title>
-    <link href="http://at0506.coding-pages.com/2018/08/21/SpringBoot%202.0%20%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/"/>
-    <id>http://at0506.coding-pages.com/2018/08/21/SpringBoot 2.0 更新记录/</id>
+    <link href="http://xin_mr.gitee.io/2018/08/21/SpringBoot%202.0%20%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/"/>
+    <id>http://xin_mr.gitee.io/2018/08/21/SpringBoot 2.0 更新记录/</id>
     <published>2018-08-21T02:43:00.000Z</published>
     <updated>2020-03-07T05:07:41.500Z</updated>
     
@@ -334,14 +334,14 @@
     </summary>
     
     
-      <category term="Java" scheme="http://at0506.coding-pages.com/tags/Java/"/>
+      <category term="Java" scheme="http://xin_mr.gitee.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Linux下更改MySQL的存储目录</title>
-    <link href="http://at0506.coding-pages.com/2018/08/06/Linux%E4%B8%8B%E6%9B%B4%E6%94%B9MySQL%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95/"/>
-    <id>http://at0506.coding-pages.com/2018/08/06/Linux下更改MySQL的存储目录/</id>
+    <link href="http://xin_mr.gitee.io/2018/08/06/Linux%E4%B8%8B%E6%9B%B4%E6%94%B9MySQL%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95/"/>
+    <id>http://xin_mr.gitee.io/2018/08/06/Linux下更改MySQL的存储目录/</id>
     <published>2018-08-06T09:06:00.000Z</published>
     <updated>2020-03-07T05:07:41.499Z</updated>
     
@@ -354,14 +354,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://at0506.coding-pages.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://xin_mr.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot设置默认首页</title>
-    <link href="http://at0506.coding-pages.com/2018/04/26/SpringBoot%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E9%A6%96%E9%A1%B5/"/>
-    <id>http://at0506.coding-pages.com/2018/04/26/SpringBoot设置默认首页/</id>
+    <link href="http://xin_mr.gitee.io/2018/04/26/SpringBoot%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E9%A6%96%E9%A1%B5/"/>
+    <id>http://xin_mr.gitee.io/2018/04/26/SpringBoot设置默认首页/</id>
     <published>2018-04-26T07:49:00.000Z</published>
     <updated>2020-03-07T05:07:41.500Z</updated>
     
@@ -374,14 +374,14 @@
     </summary>
     
     
-      <category term="Java" scheme="http://at0506.coding-pages.com/tags/Java/"/>
+      <category term="Java" scheme="http://xin_mr.gitee.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>解决MariaDB中文乱码</title>
-    <link href="http://at0506.coding-pages.com/2018/04/26/%E8%A7%A3%E5%86%B3MariaDB%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
-    <id>http://at0506.coding-pages.com/2018/04/26/解决MariaDB中文乱码/</id>
+    <link href="http://xin_mr.gitee.io/2018/04/26/%E8%A7%A3%E5%86%B3MariaDB%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
+    <id>http://xin_mr.gitee.io/2018/04/26/解决MariaDB中文乱码/</id>
     <published>2018-04-26T07:46:00.000Z</published>
     <updated>2020-03-07T05:07:41.503Z</updated>
     
@@ -394,14 +394,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://at0506.coding-pages.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://xin_mr.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Linux或Win下安装node和npm</title>
-    <link href="http://at0506.coding-pages.com/2018/04/20/Linux%E6%88%96Win%E4%B8%8B%E5%AE%89%E8%A3%85node%E5%92%8Cnpm/"/>
-    <id>http://at0506.coding-pages.com/2018/04/20/Linux或Win下安装node和npm/</id>
+    <link href="http://xin_mr.gitee.io/2018/04/20/Linux%E6%88%96Win%E4%B8%8B%E5%AE%89%E8%A3%85node%E5%92%8Cnpm/"/>
+    <id>http://xin_mr.gitee.io/2018/04/20/Linux或Win下安装node和npm/</id>
     <published>2018-04-20T07:31:00.000Z</published>
     <updated>2020-03-07T05:07:41.499Z</updated>
     
@@ -414,7 +414,7 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://at0506.coding-pages.com/tags/Linux/"/>
+      <category term="Linux" scheme="http://xin_mr.gitee.io/tags/Linux/"/>
     
   </entry>
   
