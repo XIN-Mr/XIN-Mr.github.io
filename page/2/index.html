@@ -5,7 +5,7 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="https://xin_mr.gitee.io">
+  <link rel="dns-prefetch" href="https://xin-mr.github.io">
   <title>树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,7 +17,7 @@
 <meta name="keywords" content="嵌入式,计算机网络,树懒鑫,树懒鑫的技术博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="树懒鑫的个人博客">
-<meta property="og:url" content="https://xin_mr.gitee.io/page/2/index.html">
+<meta property="og:url" content="https://xin-mr.github.io/page/2/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
 <meta property="og:description" content="树懒鑫的个人技术博客">
 <meta property="og:locale" content="zh-Hans">
@@ -49,6 +49,22 @@
  	  <script src="/lib/clickLove.js"></script>
   
   
+
+<script>
+  (function () {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+
 
 
   
@@ -87,7 +103,7 @@
 	        
 				<li><a href="https://blog.csdn.net/qq_42605300" target="_blank">个人简历</a></li>
 	        
-				<li><a href="/tags/日记本/" target="_blank">日记本</a></li>
+				<li><a href="/tags/音乐/" target="_blank">音乐</a></li>
 	        
 				<li><a href="/tags/Linux" target="_blank">Linux</a></li>
 	        
@@ -113,7 +129,7 @@
 				
 					<a class="github" href="https://github.com/XIN-Mr/XIN-Mr.github.io" title="GitHub" target="_blank"><i class="icon-github"></i></a>
 		        
-					<a class="gitee" href="https://github.com/XIN-Mr" title="码云" target="_blank"><i class="icon-gitee"></i></a>
+					<a class="gitee" href="https://gitee.com/xin_mr/XIN_Mr" title="码云" target="_blank"><i class="icon-gitee"></i></a>
 		        
 					<a class="jianshu" href="https://www.jianshu.com/u/9bc2c4b91966" title="简书" target="_blank"><i class="icon-jianshu"></i></a>
 		        
@@ -191,7 +207,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/XIN-Mr/XIN-Mr.github.io" title="GitHub"><i class="icon-github"></i></a>
 			        
-						<a class="gitee" target="_blank" href="https://github.com/XIN-Mr" title="码云"><i class="icon-gitee"></i></a>
+						<a class="gitee" target="_blank" href="https://gitee.com/xin_mr/XIN_Mr" title="码云"><i class="icon-gitee"></i></a>
 			        
 						<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/9bc2c4b91966" title="简书"><i class="icon-jianshu"></i></a>
 			        
@@ -218,7 +234,7 @@
 		        
 					<li style="width: 20%"><a href="https://blog.csdn.net/qq_42605300">个人简历</a></li>
 		        
-					<li style="width: 20%"><a href="/tags/日记本/">日记本</a></li>
+					<li style="width: 20%"><a href="/tags/音乐/">音乐</a></li>
 		        
 					<li style="width: 20%"><a href="/tags/Linux">Linux</a></li>
 		        
@@ -239,7 +255,7 @@
             
 
   
-    <article id="post-玩转MySQL优化命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Hexo博客配置RSS插件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -247,7 +263,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2019/05/06/玩转MySQL优化命令/" target="_blank">玩转MySQL优化命令</a>
+	  <a class="article-title" href="/2019/07/23/Hexo博客配置RSS插件/" target="_blank">Hexo博客配置RSS插件</a>
   
     </h1>
   
@@ -255,96 +271,8 @@
 
   
   
-<a href="/2019/05/06/玩转MySQL优化命令/" class="archive-article-date">
-        <time datetime="2019-05-06T10:05:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-06</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h5 id="1、MySQL更改为只能本地登录"><a href="#1、MySQL更改为只能本地登录" class="headerlink" title="1、MySQL更改为只能本地登录"></a>1、MySQL更改为只能本地登录</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> use mysql;</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> select user,host,Password from user <span class="built_in">where</span> user=<span class="string">'root'</span>;</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> delete from user <span class="built_in">where</span> user=<span class="string">'root'</span> and host=<span class="string">'%'</span>;</span></span><br></pre></td></tr></table></figure>
-    
-    <a class="article-more-a" href="/2019/05/06/玩转MySQL优化命令/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">MySQL</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/05/06/玩转MySQL优化命令/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Hexo博客添加helper-live2d动态模型插件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/" target="_blank">Hexo博客添加helper-live2d动态模型插件</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/" class="archive-article-date">
-        <time datetime="2019-05-05T08:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-05</time>
+<a href="/2019/07/23/Hexo博客配置RSS插件/" class="archive-article-date">
+        <time datetime="2019-07-23T07:49:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-23</time>
 </a>
 
   
@@ -359,13 +287,14 @@
     <h5 id="Tips-前导必备"><a href="#Tips-前导必备" class="headerlink" title="Tips:前导必备"></a>Tips:前导必备</h5><ul>
 <li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
 <li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
-<li>插件的github地址<a href="https://github.com/EYHN/hexo-helper-live2d" title="hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></li>
-<li><a href="https://github.com/xiazeyu/live2d-widget-models" title="live2d模型仓库" target="_blank" rel="noopener">live2d模型仓库</a></li>
-<li>必须有Node环境 ➡️ <a href="https://www.jianshu.com/p/f8b0a4f7a822" target="_blank" rel="noopener">Linux下安装node和npm</a></li>
 </ul>
 <hr>
+<h3 id="1、安装rss插件"><a href="#1、安装rss插件" class="headerlink" title="1、安装rss插件"></a>1、安装rss插件</h3><blockquote>
+<p>在站点根目录下安装</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/#more">more >></a>
+    <a class="article-more-a" href="/2019/07/23/Hexo博客配置RSS插件/#more">more >></a>
     
     
 
@@ -384,10 +313,6 @@
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
         		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
-        		</li>
       		
 		</ul>
 	</div>
@@ -396,7 +321,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/07/23/Hexo博客配置RSS插件/">展开全文 >></a>
     </p>
     
 
@@ -426,7 +351,7 @@
 
 
   
-    <article id="post-vi或vim粘贴内容时,保留原文件内容格式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-gulp-babel取消严格模式use strict" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -434,7 +359,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/" target="_blank">vi/vim 粘贴内容时,保留原文件内容格式</a>
+	  <a class="article-title" href="/2019/07/23/gulp-babel取消严格模式use strict/" target="_blank">gulp-babel 取消严格模式(&#34;use strict&#34;)</a>
   
     </h1>
   
@@ -442,8 +367,8 @@
 
   
   
-<a href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/" class="archive-article-date">
-        <time datetime="2019-05-05T07:33:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-05</time>
+<a href="/2019/07/23/gulp-babel取消严格模式use strict/" class="archive-article-date">
+        <time datetime="2019-07-23T01:38:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-23</time>
 </a>
 
   
@@ -455,666 +380,12 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p>在vi/vim普通模式下执行<code>:set paste</code>命令，再按 i 插入就会保留原文件格式</p>
-<ul>
-<li><code>:set paste</code> 打开粘贴命令</li>
-<li><code>:set nopaste</code> 关闭命令</li>
-<li><code>:h paste</code> 帮助</li>
-</ul>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-新增Hexo博客文章置顶功能" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2019/02/25/新增Hexo博客文章置顶功能/" target="_blank">新增Hexo博客文章置顶功能</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2019/02/25/新增Hexo博客文章置顶功能/" class="archive-article-date">
-        <time datetime="2019-02-25T03:40:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h5 id="修改Hexo文件夹下的node-modules-hexo-generator-index-lib-generator-js"><a href="#修改Hexo文件夹下的node-modules-hexo-generator-index-lib-generator-js" class="headerlink" title="修改Hexo文件夹下的node_modules/hexo-generator-index/lib/generator.js"></a>修改Hexo文件夹下的<code>node_modules/hexo-generator-index/lib/generator.js</code></h5><p>需要添加的代码：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="function"><span class="keyword">function</span>(<span class="params">a, b</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123;</span><br><span class="line">          <span class="keyword">if</span>(a.top == b.top) <span class="keyword">return</span> b.date - a.date;</span><br><span class="line">          <span class="keyword">else</span> <span class="keyword">return</span> b.top - a.top;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">return</span> b.date - a.date;</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
-    
-    <a class="article-more-a" href="/2019/02/25/新增Hexo博客文章置顶功能/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/02/25/新增Hexo博客文章置顶功能/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-IDEA设置后端代码开发规范" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2019/01/23/IDEA设置后端代码开发规范/" target="_blank">IDEA设置后端代码开发规范</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2019/01/23/IDEA设置后端代码开发规范/" class="archive-article-date">
-        <time datetime="2019-01-23T02:33:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-23</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h5 id="1、IDEA-配置svn"><a href="#1、IDEA-配置svn" class="headerlink" title="1、IDEA 配置svn"></a>1、IDEA 配置svn</h5><p>提交svn报错：<img src="/yilia-plus-demo/images/2743275-ef2b3fcbeb66c50b.png" alt></p>
-    
-    <a class="article-more-a" href="/2019/01/23/IDEA设置后端代码开发规范/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/01/23/IDEA设置后端代码开发规范/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-SpringBoot 2.0 更新记录" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2018/08/21/SpringBoot 2.0 更新记录/" target="_blank">SpringBoot 2.0 更新记录</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2018/08/21/SpringBoot 2.0 更新记录/" class="archive-article-date">
-        <time datetime="2018-08-21T02:43:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-21</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h4 id="1、Spring-Boot-2-0-要求Java-版本必须8以上"><a href="#1、Spring-Boot-2-0-要求Java-版本必须8以上" class="headerlink" title="1、Spring Boot 2.0 要求Java 版本必须8以上"></a>1、Spring Boot 2.0 要求Java 版本必须8以上</h4><h4 id="2、配置属性的重定位"><a href="#2、配置属性的重定位" class="headerlink" title="2、配置属性的重定位"></a>2、配置属性的重定位</h4><table>
-<thead>
-<tr>
-<th>Old property</th>
-<th>New property</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>server.context-path</td>
-<td>server.servlet.context-path</td>
-</tr>
-<tr>
-<td>server.context-parameters.*</td>
-<td>server.servlet.context-parameters.*</td>
-</tr>
-<tr>
-<td>server.jsp.class-name</td>
-<td>server.servlet.jsp.class-name</td>
-</tr>
-<tr>
-<td>server.jsp.init-parameters.*</td>
-<td>server.servlet.jsp.init-parameters.*</td>
-</tr>
-<tr>
-<td>server.jsp.registered</td>
-<td>server.servlet.jsp.registered</td>
-</tr>
-<tr>
-<td>server.servlet-path</td>
-<td>server.servlet.path</td>
-</tr>
-</tbody></table>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2018/08/21/SpringBoot 2.0 更新记录/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Linux下更改MySQL的存储目录" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2018/08/06/Linux下更改MySQL的存储目录/" target="_blank">Linux下更改MySQL的存储目录</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2018/08/06/Linux下更改MySQL的存储目录/" class="archive-article-date">
-        <time datetime="2018-08-06T09:06:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-06</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h5 id="重要步骤：一定要先停止Mysql"><a href="#重要步骤：一定要先停止Mysql" class="headerlink" title="重要步骤：一定要先停止Mysql"></a>重要步骤：一定要先停止Mysql</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service mysqld stop</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="1、创建目标文件夹"><a href="#1、创建目标文件夹" class="headerlink" title="1、创建目标文件夹"></a>1、创建目标文件夹</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mkdir -p /data/mysql</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> chown -R mysql.mysql /data/mysql/</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="2、迁移命令"><a href="#2、迁移命令" class="headerlink" title="2、迁移命令"></a>2、迁移命令</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mysql_install_db --user=mysql --basedir=/usr --datadir=/data/mysql</span></span><br></pre></td></tr></table></figure>
-    
-    <a class="article-more-a" href="/2018/08/06/Linux下更改MySQL的存储目录/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2018/08/06/Linux下更改MySQL的存储目录/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-SpringBoot设置默认首页" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2018/04/26/SpringBoot设置默认首页/" target="_blank">SpringBoot设置默认首页</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2018/04/26/SpringBoot设置默认首页/" class="archive-article-date">
-        <time datetime="2018-04-26T07:49:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-26</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DefaultView</span> <span class="keyword">extends</span> <span class="title">WebMvcConfigurerAdapter</span></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">addViewControllers</span><span class="params">(ViewControllerRegistry registry)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">super</span>.addViewControllers(registry);</span><br><span class="line">		<span class="comment">//主页</span></span><br><span class="line">		registry.addViewController(<span class="string">"/"</span>).setViewName(<span class="string">"forward:/index"</span>);</span><br><span class="line">	&#125; </span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2018/04/26/SpringBoot设置默认首页/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-解决MariaDB中文乱码" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2018/04/26/解决MariaDB中文乱码/" target="_blank">解决MariaDB中文乱码</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2018/04/26/解决MariaDB中文乱码/" class="archive-article-date">
-        <time datetime="2018-04-26T07:46:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-26</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h4 id="1、检查自己数据库编码"><a href="#1、检查自己数据库编码" class="headerlink" title="1、检查自己数据库编码"></a>1、检查自己数据库编码</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mysql -uroot -proot</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> show VARIABLES like <span class="string">'char%'</span>;</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/yilia-plus-demo/images/2743275-aed00e544adf23d4.png" alt></p>
-    
-    <a class="article-more-a" href="/2018/04/26/解决MariaDB中文乱码/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2018/04/26/解决MariaDB中文乱码/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-Linux或Win下安装node和npm" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2018/04/20/Linux或Win下安装node和npm/" target="_blank">Linux或Win下安装node和npm</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2018/04/20/Linux或Win下安装node和npm/" class="archive-article-date">
-        <time datetime="2018-04-20T07:31:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-20</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h4 id="一、离线安装Node"><a href="#一、离线安装Node" class="headerlink" title="一、离线安装Node"></a>一、离线安装Node</h4><blockquote>
-<p>官网下载链接：<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/</a><br>node和npm对应关系：<a href="https://nodejs.org/zh-cn/download/releases/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/releases/</a></p>
+    <blockquote>
+<p>插件地址 ➡️ <a href="https://github.com/genify/babel-plugin-transform-remove-strict-mode" target="_blank" rel="noopener">https://github.com/genify/babel-plugin-transform-remove-strict-mode</a></p>
 </blockquote>
-<p><img src="/yilia-plus-demo/images/2743275-497a8e6f4e7c11d2.png" alt></p>
+<h3 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a>1、安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install babel-plugin-transform-remove-strict-mode</span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2018/04/20/Linux或Win下安装node和npm/#more">more >></a>
+    <a class="article-more-a" href="/2019/07/23/gulp-babel取消严格模式use strict/#more">more >></a>
     
     
 
@@ -1131,7 +402,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
         		</li>
       		
 		</ul>
@@ -1141,7 +412,284 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2018/04/20/Linux或Win下安装node和npm/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/07/23/gulp-babel取消严格模式use strict/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Hexo博客使用gulp压缩静态资源" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/" target="_blank">Hexo博客使用gulp压缩静态资源</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/07/22/Hexo博客使用gulp压缩静态资源/" class="archive-article-date">
+        <time datetime="2019-07-22T08:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-22</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h5 id="Tips-前导必备"><a href="#Tips-前导必备" class="headerlink" title="Tips:前导必备"></a>Tips:前导必备</h5><ul>
+<li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
+<li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
+</ul>
+<hr>
+<h3 id="1、全局安装gulp"><a href="#1、全局安装gulp" class="headerlink" title="1、全局安装gulp"></a>1、全局安装gulp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp -g</span><br><span class="line"><span class="comment"># 查看版本</span></span><br><span class="line">gulp -v</span><br></pre></td></tr></table></figure>
+    
+    <a class="article-more-a" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Git分支的创建、删除、切换" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/07/01/Git分支的创建、删除、切换/" target="_blank">Git分支的创建、删除、切换</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/07/01/Git分支的创建、删除、切换/" class="archive-article-date">
+        <time datetime="2019-07-01T02:06:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-01</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h5 id="1、本地创建新分支并切换到新分支"><a href="#1、本地创建新分支并切换到新分支" class="headerlink" title="1、本地创建新分支并切换到新分支"></a>1、本地创建新分支并切换到新分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git checkout -b 分支名</span><br></pre></td></tr></table></figure>
+
+<h5 id="2、提交分支到远程仓库"><a href="#2、提交分支到远程仓库" class="headerlink" title="2、提交分支到远程仓库"></a>2、提交分支到远程仓库</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git push origin 分支名</span><br></pre></td></tr></table></figure>
+
+<h5 id="3、切换分支"><a href="#3、切换分支" class="headerlink" title="3、切换分支"></a>3、切换分支</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git checkout 分支名</span><br></pre></td></tr></table></figure>
+    
+    <a class="article-more-a" href="/2019/07/01/Git分支的创建、删除、切换/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/07/01/Git分支的创建、删除、切换/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Git彻底删除历史提交记录的方法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/06/05/Git彻底删除历史提交记录的方法/" target="_blank">Git彻底删除历史提交记录的方法</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/06/05/Git彻底删除历史提交记录的方法/" class="archive-article-date">
+        <time datetime="2019-06-05T02:22:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-05</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git log</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git reset --hard 你复制的hash值</span><br></pre></td></tr></table></figure>
+    
+    <a class="article-more-a" href="/2019/06/05/Git彻底删除历史提交记录的方法/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/06/05/Git彻底删除历史提交记录的方法/">展开全文 >></a>
     </p>
     
 
@@ -1173,7 +721,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 
@@ -1224,7 +772,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 

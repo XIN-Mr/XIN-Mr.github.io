@@ -5,7 +5,7 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="https://xin_mr.gitee.io">
+  <link rel="dns-prefetch" href="https://xin-mr.github.io">
   <title>树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,7 +17,7 @@
 <meta name="keywords" content="嵌入式,计算机网络,树懒鑫,树懒鑫的技术博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="树懒鑫的个人博客">
-<meta property="og:url" content="https://xin_mr.gitee.io/page/3/index.html">
+<meta property="og:url" content="https://xin-mr.github.io/page/3/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
 <meta property="og:description" content="树懒鑫的个人技术博客">
 <meta property="og:locale" content="zh-Hans">
@@ -49,6 +49,22 @@
  	  <script src="/lib/clickLove.js"></script>
   
   
+
+<script>
+  (function () {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+
 
 
   
@@ -87,7 +103,7 @@
 	        
 				<li><a href="https://blog.csdn.net/qq_42605300" target="_blank">个人简历</a></li>
 	        
-				<li><a href="/tags/日记本/" target="_blank">日记本</a></li>
+				<li><a href="/tags/音乐/" target="_blank">音乐</a></li>
 	        
 				<li><a href="/tags/Linux" target="_blank">Linux</a></li>
 	        
@@ -113,7 +129,7 @@
 				
 					<a class="github" href="https://github.com/XIN-Mr/XIN-Mr.github.io" title="GitHub" target="_blank"><i class="icon-github"></i></a>
 		        
-					<a class="gitee" href="https://github.com/XIN-Mr" title="码云" target="_blank"><i class="icon-gitee"></i></a>
+					<a class="gitee" href="https://gitee.com/xin_mr/XIN_Mr" title="码云" target="_blank"><i class="icon-gitee"></i></a>
 		        
 					<a class="jianshu" href="https://www.jianshu.com/u/9bc2c4b91966" title="简书" target="_blank"><i class="icon-jianshu"></i></a>
 		        
@@ -191,7 +207,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/XIN-Mr/XIN-Mr.github.io" title="GitHub"><i class="icon-github"></i></a>
 			        
-						<a class="gitee" target="_blank" href="https://github.com/XIN-Mr" title="码云"><i class="icon-gitee"></i></a>
+						<a class="gitee" target="_blank" href="https://gitee.com/xin_mr/XIN_Mr" title="码云"><i class="icon-gitee"></i></a>
 			        
 						<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/9bc2c4b91966" title="简书"><i class="icon-jianshu"></i></a>
 			        
@@ -218,7 +234,7 @@
 		        
 					<li style="width: 20%"><a href="https://blog.csdn.net/qq_42605300">个人简历</a></li>
 		        
-					<li style="width: 20%"><a href="/tags/日记本/">日记本</a></li>
+					<li style="width: 20%"><a href="/tags/音乐/">音乐</a></li>
 		        
 					<li style="width: 20%"><a href="/tags/Linux">Linux</a></li>
 		        
@@ -239,7 +255,7 @@
             
 
   
-    <article id="post-Linux配置SSH-Key到GitHub" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-玩转MySQL优化命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -247,7 +263,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2018/04/17/Linux配置SSH-Key到GitHub/" target="_blank">Linux配置SSH Key到GitHub</a>
+	  <a class="article-title" href="/2019/05/06/玩转MySQL优化命令/" target="_blank">玩转MySQL优化命令</a>
   
     </h1>
   
@@ -255,8 +271,8 @@
 
   
   
-<a href="/2018/04/17/Linux配置SSH-Key到GitHub/" class="archive-article-date">
-        <time datetime="2018-04-17T06:48:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
+<a href="/2019/05/06/玩转MySQL优化命令/" class="archive-article-date">
+        <time datetime="2019-05-06T10:05:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-06</time>
 </a>
 
   
@@ -268,11 +284,9 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h4 id="1、生成SSH-Key"><a href="#1、生成SSH-Key" class="headerlink" title="1、生成SSH Key"></a>1、生成SSH Key</h4><p><strong>首先检查下本机是否已经安装了SSH，在终端输入ssh即可：</strong></p>
-<p><img src="/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png" alt></p>
-<p>如果没有安装进行yum安装</p>
+    <h5 id="1、MySQL更改为只能本地登录"><a href="#1、MySQL更改为只能本地登录" class="headerlink" title="1、MySQL更改为只能本地登录"></a>1、MySQL更改为只能本地登录</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> use mysql;</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> select user,host,Password from user <span class="built_in">where</span> user=<span class="string">'root'</span>;</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> delete from user <span class="built_in">where</span> user=<span class="string">'root'</span> and host=<span class="string">'%'</span>;</span></span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2018/04/17/Linux配置SSH-Key到GitHub/#more">more >></a>
+    <a class="article-more-a" href="/2019/05/06/玩转MySQL优化命令/#more">more >></a>
     
     
 
@@ -289,7 +303,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">MySQL</a>
         		</li>
       		
 		</ul>
@@ -299,7 +313,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2018/04/17/Linux配置SSH-Key到GitHub/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/05/06/玩转MySQL优化命令/">展开全文 >></a>
     </p>
     
 
@@ -329,7 +343,7 @@
 
 
   
-    <article id="post-Linux下安装Git" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Hexo博客添加helper-live2d动态模型插件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -337,7 +351,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2018/04/17/Linux下安装Git/" target="_blank">Linux下安装Git</a>
+	  <a class="article-title" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/" target="_blank">Hexo博客添加helper-live2d动态模型插件</a>
   
     </h1>
   
@@ -345,8 +359,8 @@
 
   
   
-<a href="/2018/04/17/Linux下安装Git/" class="archive-article-date">
-        <time datetime="2018-04-17T05:41:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
+<a href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/" class="archive-article-date">
+        <time datetime="2019-05-05T08:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-05</time>
 </a>
 
   
@@ -358,12 +372,112 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h4 id="1、使用yum安装"><a href="#1、使用yum安装" class="headerlink" title="1、使用yum安装"></a>1、使用yum安装</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> yum -y install git</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> yum remove git</span></span><br></pre></td></tr></table></figure>
+    <h5 id="Tips-前导必备"><a href="#Tips-前导必备" class="headerlink" title="Tips:前导必备"></a>Tips:前导必备</h5><ul>
+<li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
+<li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
+<li>插件的github地址<a href="https://github.com/EYHN/hexo-helper-live2d" title="hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></li>
+<li><a href="https://github.com/xiazeyu/live2d-widget-models" title="live2d模型仓库" target="_blank" rel="noopener">live2d模型仓库</a></li>
+<li>必须有Node环境 ➡️ <a href="https://www.jianshu.com/p/f8b0a4f7a822" target="_blank" rel="noopener">Linux下安装node和npm</a></li>
+</ul>
+<hr>
+    
+    <a class="article-more-a" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/#more">more >></a>
+    
+    
 
-<h4 id="2、源代码安装"><a href="#2、源代码安装" class="headerlink" title="2、源代码安装"></a>2、源代码安装</h4>
     
-    <a class="article-more-a" href="/2018/04/17/Linux下安装Git/#more">more >></a>
+
     
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/05/05/Hexo博客添加helper-live2d动态模型插件/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-vi或vim粘贴内容时,保留原文件内容格式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/" target="_blank">vi/vim 粘贴内容时,保留原文件内容格式</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/" class="archive-article-date">
+        <time datetime="2019-05-05T07:33:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-05</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <p>在vi/vim普通模式下执行<code>:set paste</code>命令，再按 i 插入就会保留原文件格式</p>
+<ul>
+<li><code>:set paste</code> 打开粘贴命令</li>
+<li><code>:set nopaste</code> 关闭命令</li>
+<li><code>:h paste</code> 帮助</li>
+</ul>
+
     
 
     
@@ -389,7 +503,184 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2018/04/17/Linux下安装Git/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-新增Hexo博客文章置顶功能" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/02/25/新增Hexo博客文章置顶功能/" target="_blank">新增Hexo博客文章置顶功能</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/02/25/新增Hexo博客文章置顶功能/" class="archive-article-date">
+        <time datetime="2019-02-25T03:40:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h5 id="修改Hexo文件夹下的node-modules-hexo-generator-index-lib-generator-js"><a href="#修改Hexo文件夹下的node-modules-hexo-generator-index-lib-generator-js" class="headerlink" title="修改Hexo文件夹下的node_modules/hexo-generator-index/lib/generator.js"></a>修改Hexo文件夹下的<code>node_modules/hexo-generator-index/lib/generator.js</code></h5><p>需要添加的代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">posts.data = posts.data.sort(<span class="function"><span class="keyword">function</span>(<span class="params">a, b</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(a.top &amp;&amp; b.top) &#123;</span><br><span class="line">          <span class="keyword">if</span>(a.top == b.top) <span class="keyword">return</span> b.date - a.date;</span><br><span class="line">          <span class="keyword">else</span> <span class="keyword">return</span> b.top - a.top;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">if</span>(a.top &amp;&amp; !b.top) &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">if</span>(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">return</span> b.date - a.date;</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+    
+    <a class="article-more-a" href="/2019/02/25/新增Hexo博客文章置顶功能/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/02/25/新增Hexo博客文章置顶功能/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-IDEA设置后端代码开发规范" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/01/23/IDEA设置后端代码开发规范/" target="_blank">IDEA设置后端代码开发规范</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/01/23/IDEA设置后端代码开发规范/" class="archive-article-date">
+        <time datetime="2019-01-23T02:33:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-23</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h5 id="1、IDEA-配置svn"><a href="#1、IDEA-配置svn" class="headerlink" title="1、IDEA 配置svn"></a>1、IDEA 配置svn</h5><p>提交svn报错：<img src="/yilia-plus-demo/images/2743275-ef2b3fcbeb66c50b.png" alt></p>
+    
+    <a class="article-more-a" href="/2019/01/23/IDEA设置后端代码开发规范/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/01/23/IDEA设置后端代码开发规范/">展开全文 >></a>
     </p>
     
 
@@ -421,7 +712,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
     </nav>
   
 
@@ -472,7 +763,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
