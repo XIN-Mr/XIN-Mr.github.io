@@ -435,7 +435,7 @@
 
 
   
-    <article id="post-Hexo编译文档时JS或HTML混乱解决方案" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Hexo博客配置RSS插件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -443,7 +443,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/" target="_blank">Hexo编译文档时JS或HTML混乱解决方案</a>
+	  <a class="article-title" href="/2019/07/23/Hexo博客配置RSS插件/" target="_blank">Hexo博客配置RSS插件</a>
   
     </h1>
   
@@ -451,8 +451,8 @@
 
   
   
-<a href="/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/" class="archive-article-date">
-        <time datetime="2019-07-26T03:26:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-26</time>
+<a href="/2019/07/23/Hexo博客配置RSS插件/" class="archive-article-date">
+        <time datetime="2019-07-23T07:49:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-23</time>
 </a>
 
   
@@ -468,14 +468,13 @@
 <li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
 <li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
 </ul>
-<blockquote>
-<p>之前为在 GitHub 博客上写自己的 html 网页，在 hexo 根目录下的 source 文件夹中放了自己的 js 文件，每次 <code>hexo g</code> 后，pubic 文件夹中的 js 文件就混乱了，与自己实际 js 不一致。</p>
+<hr>
+<h3 id="1、安装rss插件"><a href="#1、安装rss插件" class="headerlink" title="1、安装rss插件"></a>1、安装rss插件</h3><blockquote>
+<p>在站点根目录下安装</p>
 </blockquote>
-<h3 id="解决方案-跳过-hexo-渲染"><a href="#解决方案-跳过-hexo-渲染" class="headerlink" title="解决方案(跳过 hexo 渲染)"></a>解决方案(跳过 hexo 渲染)</h3><blockquote>
-<p><strong>Hexo 3.0 以上支持</strong><br>修改 Hexo 主目录下的 _config.yml 配置文件中的 <code>skip_render</code> 参数。</p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/#more">more >></a>
+    <a class="article-more-a" href="/2019/07/23/Hexo博客配置RSS插件/#more">more >></a>
     
     
 
@@ -502,7 +501,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2019/07/26/Hexo编译文档时JS或HTML混乱解决方案/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/07/23/Hexo博客配置RSS插件/">展开全文 >></a>
     </p>
     
 
@@ -532,7 +531,7 @@
 
 
   
-    <article id="post-Hexo博客集成码云评论系统" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Hexo博客使用gulp压缩静态资源" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -540,7 +539,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2019/07/25/Hexo博客集成码云评论系统/" target="_blank">Hexo博客集成码云评论系统</a>
+	  <a class="article-title" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/" target="_blank">Hexo博客使用gulp压缩静态资源</a>
   
     </h1>
   
@@ -548,8 +547,8 @@
 
   
   
-<a href="/2019/07/25/Hexo博客集成码云评论系统/" class="archive-article-date">
-        <time datetime="2019-07-25T02:39:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-25</time>
+<a href="/2019/07/22/Hexo博客使用gulp压缩静态资源/" class="archive-article-date">
+        <time datetime="2019-07-22T08:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-22</time>
 </a>
 
   
@@ -565,11 +564,10 @@
 <li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
 <li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
 </ul>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><blockquote>
-<p>giteement系统是基于<a href="https://github.com/imsun/gitment" target="_blank" rel="noopener">gitment</a>的源码开发和扩展的 ➡️ <a href="https://gitee.com/zhousiwei/giteement" target="_blank" rel="noopener">https://gitee.com/zhousiwei/giteement</a><br><a href="https://gitee.com/zhousiwei/giteement" target="_blank" rel="noopener">giteement</a>还在继续维护优化中…欢迎小伙伴们加入一起维护</p>
-</blockquote>
+<hr>
+<h3 id="1、全局安装gulp"><a href="#1、全局安装gulp" class="headerlink" title="1、全局安装gulp"></a>1、全局安装gulp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp -g</span><br><span class="line"><span class="comment"># 查看版本</span></span><br><span class="line">gulp -v</span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2019/07/25/Hexo博客集成码云评论系统/#more">more >></a>
+    <a class="article-more-a" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/#more">more >></a>
     
     
 
@@ -596,7 +594,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2019/07/25/Hexo博客集成码云评论系统/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/07/22/Hexo博客使用gulp压缩静态资源/">展开全文 >></a>
     </p>
     
 
@@ -626,7 +624,7 @@
 
 
   
-    <article id="post-Hexo博客集成Gitment评论" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Git彻底删除历史提交记录的方法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -634,7 +632,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2019/07/24/Hexo博客集成Gitment评论/" target="_blank">Hexo博客集成Gitment评论</a>
+	  <a class="article-title" href="/2019/06/05/Git彻底删除历史提交记录的方法/" target="_blank">Git彻底删除历史提交记录的方法</a>
   
     </h1>
   
@@ -642,8 +640,8 @@
 
   
   
-<a href="/2019/07/24/Hexo博客集成Gitment评论/" class="archive-article-date">
-        <time datetime="2019-07-24T08:52:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-24</time>
+<a href="/2019/06/05/Git彻底删除历史提交记录的方法/" class="archive-article-date">
+        <time datetime="2019-06-05T02:22:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-05</time>
 </a>
 
   
@@ -655,15 +653,13 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h5 id="Tips-前导必备"><a href="#Tips-前导必备" class="headerlink" title="Tips:前导必备"></a>Tips:前导必备</h5><ul>
-<li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
-<li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
-</ul>
-<blockquote>
-<p>Gitment 是一位作者实现的一款基于 GitHub Issues 的评论系统。支持在前端直接引入，不需要任何后端代码。可以在页面进行登录、查看、评论、点赞等操作，同时有完整的 <code>Markdown</code> / <code>GFM</code> 和代码高亮支持。尤为适合各种基于 GitHub Pages 的静态博客或项目页面。</p>
-</blockquote>
+    <h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git <span class="built_in">log</span></span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git reset --hard 你复制的<span class="built_in">hash</span>值</span></span><br></pre></td></tr></table></figure>
     
-    <a class="article-more-a" href="/2019/07/24/Hexo博客集成Gitment评论/#more">more >></a>
+    <a class="article-more-a" href="/2019/06/05/Git彻底删除历史提交记录的方法/#more">more >></a>
     
     
 
@@ -680,7 +676,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">日记本</a>
         		</li>
       		
 		</ul>
@@ -690,7 +686,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2019/07/24/Hexo博客集成Gitment评论/">展开全文 >></a>
+      <a class="article-more-a" href="/2019/06/05/Git彻底删除历史提交记录的方法/">展开全文 >></a>
     </p>
     
 
@@ -722,7 +718,7 @@
   
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
     </nav>
   
 
@@ -739,7 +735,7 @@
       	<div class="footer-right">
 			
 			
-      		GitHub:<a href="https://github.com/XIN-Mr/XIN-Mr.github.io" target="_blank">XIN-mr</a> by Litten
+      		GitHub:<a href="https://github.com/XIN-Mr/XIN-Mr.github.io" target="_blank">XIN-mr</a> by 鑫_Mr
       	</div>
     </div>
   </div>
@@ -853,19 +849,15 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">日记本</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
+                <a href="javascript:void(0)" class="js-tag color4">日记本</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Java</a>
+                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
               </li>
              
               <li class="article-tag-list-item">
