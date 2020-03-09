@@ -18,7 +18,7 @@
 <meta property="og:site_name" content="树懒鑫的个人博客">
 <meta property="og:description" content="OSPF路由算法--详述">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-03-09T04:58:32.551Z">
+<meta property="og:updated_time" content="2020-03-09T07:42:40.214Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="OSPF路由知识，你知道多少？">
 <meta name="twitter:description" content="OSPF路由算法--详述">
@@ -341,10 +341,8 @@
 <li>DR other和DR other之间邻居关系；</li>
 </ul>
 <h2 id="OSPF的网络类型"><a href="#OSPF的网络类型" class="headerlink" title="OSPF的网络类型"></a>OSPF的网络类型</h2><h4 id="（1）广播（broadcast）："><a href="#（1）广播（broadcast）：" class="headerlink" title="（1）广播（broadcast）："></a>（1）广播（broadcast）：</h4><ul>
-<li>当底层链路类型为以太网时，接口类型为Ethernet、GBEthernet；<ul>
+<li>当底层链路类型为以太网时，接口类型为Ethernet、GBEthernet；</li>
 <li>需要选举出DR和BDR；</li>
-</ul>
-</li>
 <li>周期发送hello报文的时间为10S，超时时间（OSPF的设备如果超过40S没有收到邻居发送的hello报文，则OSPF邻居断掉）40S；</li>
 </ul>
 <h4 id="（2）点到点（P2P）："><a href="#（2）点到点（P2P）：" class="headerlink" title="（2）点到点（P2P）："></a>（2）点到点（P2P）：</h4><pre><code>- 当底层链路类型为PPP或者HDLC，接口类型为serial；
