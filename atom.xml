@@ -40,6 +40,28 @@
   </entry>
   
   <entry>
+    <title>嵌入式STM32(一)</title>
+    <link href="https://xin-mr.github.io/2020/03/09/%E5%B5%8C%E5%85%A5%E5%BC%8FSTM32-%E4%B8%80/"/>
+    <id>https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/</id>
+    <published>2020-03-09T03:50:08.000Z</published>
+    <updated>2020-03-09T05:06:07.694Z</updated>
+    
+    <content type="html"><![CDATA[<p>嵌入式,STM32</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;嵌入式,STM32&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="嵌入式" scheme="https://xin-mr.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+      <category term="STM32" scheme="https://xin-mr.github.io/tags/STM32/"/>
+    
+  </entry>
+  
+  <entry>
     <title>OSPF路由知识，你知道多少？</title>
     <link href="https://xin-mr.github.io/2020/03/09/OSPF%E8%B7%AF%E7%94%B1%E7%9F%A5%E8%AF%86%EF%BC%8C%E4%BD%A0%E7%9F%A5%E9%81%93%E5%A4%9A%E5%B0%91%EF%BC%9F/"/>
     <id>https://xin-mr.github.io/2020/03/09/OSPF路由知识，你知道多少？/</id>
@@ -148,7 +170,7 @@
     <published>2019-06-05T02:22:00.000Z</published>
     <updated>2020-03-07T05:07:41.494Z</updated>
     
-    <content type="html"><![CDATA[<h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git <span class="built_in">log</span></span></span><br></pre></td></tr></table></figure><hr><h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git reset --hard 你复制的<span class="built_in">hash</span>值</span></span><br></pre></td></tr></table></figure><a id="more"></a><hr><h6 id="3、将当前指向的head推到git"><a href="#3、将当前指向的head推到git" class="headerlink" title="3、将当前指向的head推到git"></a>3、将当前指向的head推到git</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git push --force</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h6 id="1、查看Git提交记录"><a href="#1、查看Git提交记录" class="headerlink" title="1、查看Git提交记录"></a>1、查看Git提交记录</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git log</span><br></pre></td></tr></table></figure><hr><h6 id="2、找到需要回滚到的提交点，复制它的hash值"><a href="#2、找到需要回滚到的提交点，复制它的hash值" class="headerlink" title="2、找到需要回滚到的提交点，复制它的hash值"></a>2、找到需要回滚到的提交点，复制它的hash值</h6><p><img src="/yilia-plus-demo/images/2743275-f79de5b6d7280d81.png" alt></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git reset --hard 你复制的hash值</span><br></pre></td></tr></table></figure><a id="more"></a><hr><h6 id="3、将当前指向的head推到git"><a href="#3、将当前指向的head推到git" class="headerlink" title="3、将当前指向的head推到git"></a>3、将当前指向的head推到git</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git push --force</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     

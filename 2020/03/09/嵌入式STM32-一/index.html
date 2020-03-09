@@ -6,22 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://xin-mr.github.io">
-  <title>Linux下更改MySQL的存储目录 | 树懒鑫的个人博客</title>
+  <title>嵌入式STM32(一) | 树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="Linux下更改MySQL的存储目录">
-<meta name="keywords" content="Linux">
+  <meta name="description" content="嵌入式,STM32">
+<meta name="keywords" content="嵌入式,STM32">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux下更改MySQL的存储目录">
-<meta property="og:url" content="https://xin-mr.github.io/2018/08/06/Linux下更改MySQL的存储目录/index.html">
+<meta property="og:title" content="嵌入式STM32(一)">
+<meta property="og:url" content="https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
-<meta property="og:description" content="Linux下更改MySQL的存储目录">
+<meta property="og:description" content="嵌入式,STM32">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-03-07T05:07:41.499Z">
+<meta property="og:updated_time" content="2020-03-09T05:06:07.694Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Linux下更改MySQL的存储目录">
-<meta name="twitter:description" content="Linux下更改MySQL的存储目录">
+<meta name="twitter:title" content="嵌入式STM32(一)">
+<meta name="twitter:description" content="嵌入式,STM32">
   
     <link rel="alternative" href="/atom.xml" title="树懒鑫的个人博客" type="application/atom+xml">
   
@@ -243,14 +243,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Linux下更改MySQL的存储目录" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-嵌入式STM32-一" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      Linux下更改MySQL的存储目录
+      嵌入式STM32(一)
     </h1>
   
 
@@ -262,8 +262,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2018/08/06/Linux下更改MySQL的存储目录/" class="archive-article-date">
-        <time datetime="2018-08-06T09:06:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-06</time>
+<a href="/2020/03/09/嵌入式STM32-一/" class="archive-article-date">
+        <time datetime="2020-03-09T03:50:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
 </a>
 
   
@@ -276,7 +276,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">91字</span>
+      <span class="post-count">4字</span>
     </span>
   </span>
 
@@ -296,18 +296,8 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h5 id="重要步骤：一定要先停止Mysql"><a href="#重要步骤：一定要先停止Mysql" class="headerlink" title="重要步骤：一定要先停止Mysql"></a>重要步骤：一定要先停止Mysql</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> service mysqld stop</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="1、创建目标文件夹"><a href="#1、创建目标文件夹" class="headerlink" title="1、创建目标文件夹"></a>1、创建目标文件夹</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mkdir -p /data/mysql</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> chown -R mysql.mysql /data/mysql/</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="2、迁移命令"><a href="#2、迁移命令" class="headerlink" title="2、迁移命令"></a>2、迁移命令</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mysql_install_db --user=mysql --basedir=/usr --datadir=/data/mysql</span></span><br></pre></td></tr></table></figure>
-
+    <p>嵌入式,STM32</p>
 <a id="more"></a>
-<h5 id="3、为避免麻烦，删掉原文件夹-var-lib-mysql"><a href="#3、为避免麻烦，删掉原文件夹-var-lib-mysql" class="headerlink" title="3、为避免麻烦，删掉原文件夹/var/lib/mysql"></a>3、为避免麻烦，删掉原文件夹/var/lib/mysql</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> rm -rf /var/lib/mysql/*</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="4、修改-etc-my-cnf配置文件"><a href="#4、修改-etc-my-cnf配置文件" class="headerlink" title="4、修改/etc/my.cnf配置文件"></a>4、修改/etc/my.cnf配置文件</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[mysqld]</span><br><span class="line">datadir=/data/mysql</span><br></pre></td></tr></table></figure>
-
-<h5 id="5、启动mysql"><a href="#5、启动mysql" class="headerlink" title="5、启动mysql"></a>5、启动mysql</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> chkconfig mysqld on</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> service mysqld restart</span></span><br></pre></td></tr></table></figure>
     
 
     
@@ -353,7 +343,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="https://xin-mr.github.io/2018/08/06/Linux下更改MySQL的存储目录/" title="Linux下更改MySQL的存储目录" target="_blank">https://xin-mr.github.io/2018/08/06/Linux下更改MySQL的存储目录/</a>
+          <a href="https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/" title="嵌入式STM32(一)" target="_blank">https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -372,7 +362,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">嵌入式</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">STM32</a>
         		</li>
       		
 		</ul>
@@ -428,7 +422,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2018/08/06/Linux下更改MySQL的存储目录/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -443,18 +437,18 @@
 
 <nav id="article-nav">
   
-    <a href="/2019/05/05/vi或vim粘贴内容时,保留原文件内容格式/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/03/09/hexo-常用命令-2/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          vi/vim 粘贴内容时,保留原文件内容格式
+          hexo-常用命令-2
         
       </div>
     </a>
   
   
-    <a href="/2018/04/20/Linux或Win下安装node和npm/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Linux或Win下安装node和npm</div>
+    <a href="/2020/03/09/OSPF路由知识，你知道多少？/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">OSPF路由知识，你知道多少？</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -495,9 +489,9 @@
     <script src="/lib/gitment.js"></script>
   
   <script>
-    <!-- id: "Linux下更改MySQL的存储目录" -->
+    <!-- id: "嵌入式STM32(一)" -->
     var gitment = new Gitment({
-      id: "20180806170600",
+      id: "20200309115008",
       owner: 'JoeyBling',
       repo: 'yilia-plus-demo',
       oauth: {
