@@ -6,31 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://xin-mr.github.io">
-  <title>Linux配置SSH Key到GitHub | 树懒鑫的个人博客</title>
+  <title>OSPF路由知识，你知道多少？ | 树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
-<meta name="keywords" content="Linux">
+  <meta name="description" content="OSPF路由算法--详述">
+<meta name="keywords" content="IP路由">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux配置SSH Key到GitHub">
-<meta property="og:url" content="https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/index.html">
+<meta property="og:title" content="OSPF路由知识，你知道多少？">
+<meta property="og:url" content="https://xin-mr.github.io/2020/03/09/OSPF路由知识，你知道多少？/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
-<meta property="og:description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
+<meta property="og:description" content="OSPF路由算法--详述">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-7398d3f9f1eef72c.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-2c142d50f896e48b.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-062ea02946eb9af5.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d2a6a8697131e8d7.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-1a8f4cd790d9d667.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-cdbdf7fd81c8ac11.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-5310d1ab738cb79a.png">
-<meta property="og:updated_time" content="2020-03-07T05:07:41.499Z">
+<meta property="og:updated_time" content="2020-03-09T03:48:47.940Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Linux配置SSH Key到GitHub">
-<meta name="twitter:description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
-<meta name="twitter:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png">
+<meta name="twitter:title" content="OSPF路由知识，你知道多少？">
+<meta name="twitter:description" content="OSPF路由算法--详述">
   
     <link rel="alternative" href="/atom.xml" title="树懒鑫的个人博客" type="application/atom+xml">
   
@@ -252,14 +243,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Linux配置SSH-Key到GitHub" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-OSPF路由知识，你知道多少？" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      Linux配置SSH Key到GitHub
+      OSPF路由知识，你知道多少？
     </h1>
   
 
@@ -271,8 +262,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2018/04/17/Linux配置SSH-Key到GitHub/" class="archive-article-date">
-        <time datetime="2018-04-17T06:48:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
+<a href="/2020/03/09/OSPF路由知识，你知道多少？/" class="archive-article-date">
+        <time datetime="2020-03-09T03:45:53.529Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
 </a>
 
   
@@ -285,7 +276,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">209字</span>
+      <span class="post-count">1k字</span>
     </span>
   </span>
 
@@ -294,7 +285,7 @@
     <span class="post-meta-item-icon">
       <i class="icon-book icon"></i>
       <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">1分</span>
+      <span class="post-count">4分</span>
     </span>
   </span>
 </div>
@@ -305,26 +296,86 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h4 id="1、生成SSH-Key"><a href="#1、生成SSH-Key" class="headerlink" title="1、生成SSH Key"></a>1、生成SSH Key</h4><p><strong>首先检查下本机是否已经安装了SSH，在终端输入ssh即可：</strong></p>
-<p><img src="/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png" alt></p>
-<p>如果没有安装进行yum安装</p>
-<a id="more"></a>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> yum -y install openssh-clients</span></span><br></pre></td></tr></table></figure>
+    <h1 id="hexo-theme-yilia-plus"><a href="#hexo-theme-yilia-plus" class="headerlink" title="hexo-theme-yilia-plus"></a>hexo-theme-yilia-plus</h1><h1 id="OSPF（开放式最短路径优先）"><a href="#OSPF（开放式最短路径优先）" class="headerlink" title="OSPF（开放式最短路径优先）"></a>OSPF（开放式最短路径优先）</h1><h2 id="OSPF的报文："><a href="#OSPF的报文：" class="headerlink" title="OSPF的报文："></a>OSPF的报文：</h2><p>&emsp;封装在IP报文中，协议号为89<br>    （1）hello报文：发现、协商、维护（周期发送）OSPF邻居；<br>    （2）DD报文：数据库描述报文，携带LSA的摘要；<br>    （3）LSR报文：请求本设备缺少的LSA信息；<br>    （4）LSU报文：携带LSA信息的报文。收到了LSR报文的请求以后，LSU进行回复；LSU报文会周期1800S更新；当网络发生变化时发送出LSU进行更新；<br>    （5）LSACK报文：确认；用来确认收到了LSU的报文；</p>
+<blockquote>
+<pre><code>DR和BDR：
 
-<h6 id="接下来就是生成ssh-key了，输入ssh-keygen-t-rsa，然后连续按回车键三次（注意：千万不要输入密码！）。"><a href="#接下来就是生成ssh-key了，输入ssh-keygen-t-rsa，然后连续按回车键三次（注意：千万不要输入密码！）。" class="headerlink" title="接下来就是生成ssh key了，输入ssh-keygen -t rsa，然后连续按回车键三次（注意：千万不要输入密码！）。"></a>接下来就是生成<code>ssh key</code>了，输入<code>ssh-keygen -t rsa</code>，然后连续按回车键三次（注意：千万不要输入密码！）。</h6><p><img src="/yilia-plus-demo/images/2743275-7398d3f9f1eef72c.png" alt></p>
-<p><code>id_rsa.pub</code>为公钥，<code>id_rsa</code>为私钥，它们都是隐藏文件。<br>那么如何查看它们的内容呢？只需要继续执行以下两条命令即可。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> .ssh/</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> cat id_rsa.pub</span></span><br></pre></td></tr></table></figure>
+  DR：减少广播网络中报文的交互数量，节省链路的资源；
 
-<p><img src="/yilia-plus-demo/images/2743275-2c142d50f896e48b.png" alt></p>
-<h4 id="2、添加SSH-Key到GitHub上"><a href="#2、添加SSH-Key到GitHub上" class="headerlink" title="2、添加SSH Key到GitHub上"></a>2、添加SSH Key到GitHub上</h4><p><img src="/yilia-plus-demo/images/2743275-062ea02946eb9af5.png" alt></p>
-<p>接着执行下面操作：</p>
-<p><img src="/yilia-plus-demo/images/2743275-d2a6a8697131e8d7.png" alt></p>
-<p>点击New SSH Key按钮后进行Key的填写操作，完成SSH Key的添加。如下图：<br><img src="/yilia-plus-demo/images/2743275-1a8f4cd790d9d667.png" alt></p>
-<p><img src="/yilia-plus-demo/images/2743275-cdbdf7fd81c8ac11.png" alt><br>添加SSH Key成功之后，继续输入命令进行测试。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ssh -T git@github.com</span></span><br></pre></td></tr></table></figure>
+  BDR：备份DR，作为DR的备份；</code></pre><br>
+</blockquote>
+<h2 id="DR和BDR选举的规则"><a href="#DR和BDR选举的规则" class="headerlink" title="DR和BDR选举的规则"></a>DR和BDR选举的规则</h2><p>（1）<strong>比较接口的优先级</strong>，越大越优；默认优先级为1；优先级为0，表示弃权；0-255<br>    配置：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">interface GigabitEthernet0/<span class="number">0</span>/<span class="number">0</span></span><br><span class="line">      ip address <span class="number">10.1</span>.<span class="number">12.1</span> <span class="number">255.255</span>.<span class="number">255.0</span> </span><br><span class="line">      ospf dr-priority <span class="number">12</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="/yilia-plus-demo/images/2743275-5310d1ab738cb79a.png" alt></p>
-<p>出现上图结果则说明添加SSH Key成功。</p>
+<p>（2）如果优先级相同的情况，则<strong>比较设备的router id</strong>，越大越优；    </p>
+<h4 id="router-id：标识一台设备；"><a href="#router-id：标识一台设备；" class="headerlink" title="router id：标识一台设备；"></a>router id：标识一台设备；</h4><p><strong>（1）手工配置：</strong><br>    ①系统视图下配置： router id  1.1.1.1<br>  ②协议视图下：ospf 1 router id 1.1.1.1 </p>
+<blockquote>
+<p> 手工配置router id可能不能马上生效，需要刷新OSPF的进程： 即在用户视图下：reset ospf process  —&gt;Y</p>
+</blockquote>
+<p><strong>（2）自动生成：</strong></p>
+<ul>
+<li>华为标准：最先UP的接口成为设备的router id；</li>
+<li>RFC标准：<br>  ①如果设备有环回接口，则选择环回接口IP地址大的；<br>  ②如果没有环回接口，则选择物理接口IP地址大的；  <br>
+## OSPF的设备关系
+
+</li>
+</ul>
+<blockquote>
+<p>邻居：只能发送hello报文；<br>邻接：OSPF的五种报文都可以发送；</p>
+</blockquote>
+<p>DR、BDR、DR other：</p>
+<ul>
+<li>DR、BDR以及DR other之间是邻接关系；</li>
+<li>BDR和DR other之间是邻接关系；</li>
+<li>DR other和DR other之间邻居关系；</li>
+</ul>
+<h2 id="OSPF的网络类型"><a href="#OSPF的网络类型" class="headerlink" title="OSPF的网络类型"></a>OSPF的网络类型</h2><h4 id="（1）广播（broadcast）："><a href="#（1）广播（broadcast）：" class="headerlink" title="（1）广播（broadcast）："></a>（1）广播（broadcast）：</h4><ul>
+<li>当底层链路类型为以太网时，接口类型为Ethernet、GBEthernet；<ul>
+<li>需要选举出DR和BDR；</li>
+</ul>
+</li>
+<li>周期发送hello报文的时间为10S，超时时间（OSPF的设备如果超过40S没有收到邻居发送的hello报文，则OSPF邻居断掉）40S；</li>
+</ul>
+<h4 id="（2）点到点（P2P）："><a href="#（2）点到点（P2P）：" class="headerlink" title="（2）点到点（P2P）："></a>（2）点到点（P2P）：</h4><pre><code>- 当底层链路类型为PPP或者HDLC，接口类型为serial；
+- 不需要选举DR和BDR；
+- 周期发送hello报文的时间为10S，超时时间40S；</code></pre><h4 id="（3）非广播多路访问（NBMA）："><a href="#（3）非广播多路访问（NBMA）：" class="headerlink" title="（3）非广播多路访问（NBMA）："></a>（3）非广播多路访问（NBMA）：</h4><pre><code>- 当底层链路类型为FR（帧中继），接口类型为serial；
+- 需要选举出DR和BDR；
+- 周期发送hello报文的时间为30S，超时时间120S；</code></pre><h4 id="（4）点到多点（P2MP）："><a href="#（4）点到多点（P2MP）：" class="headerlink" title="（4）点到多点（P2MP）："></a>（4）点到多点（P2MP）：</h4><pre><code>-只能手工设置；
+-不需要选举DR和BDR；
+-周期发送hello报文的时间为30S，超时时间120S；    </code></pre><p>&emsp; OSPF配置：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">interface GigabitEthernet0/<span class="number">0</span>/<span class="number">0</span></span><br><span class="line"> ip address <span class="number">10.1</span>.<span class="number">12.1</span> <span class="number">255.255</span>.<span class="number">255.0</span></span><br><span class="line"> ospf network-type p2mp  //修改OSPF的网络类型；</span><br><span class="line"> ospf timer hello <span class="number">10</span>   //修改接口发送hello报文的时间；</span><br></pre></td></tr></table></figure>
+
+<h6 id="OSPF划分区域："><a href="#OSPF划分区域：" class="headerlink" title="OSPF划分区域："></a>OSPF划分区域：</h6><p>（1）区域0属于骨干区域；<br>（2）其他的区域ID都属于非骨干区域；<br>（3）非骨干区域之间要进行互访，只能经过骨干区域访问，不能直接非骨干区域去访问非骨干区域；</p>
+<blockquote>
+<p>ABR（区域边界路由器）：既处于骨干区域，又处于非骨干区域；<br>ASBR（自治系统边界路由器）：处于AS边界有做引入的设备；</p>
+</blockquote>
+<br>
+
+<h2 id="OSPF的认证（-提高网络的安全性）"><a href="#OSPF的认证（-提高网络的安全性）" class="headerlink" title="OSPF的认证（ 提高网络的安全性）"></a>OSPF的认证（ 提高网络的安全性）</h2><h4 id="认证方式"><a href="#认证方式" class="headerlink" title="认证方式"></a>认证方式</h4><p>（1）<strong>区域认证</strong>：设备处于该区域下的所有接口都需要进行认证.</p>
+<ul>
+<li>OSPF配置：<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ospf <span class="number">1</span> router-id <span class="number">1.1</span>.<span class="number">1.1</span></span><br><span class="line"> area <span class="number">0.0</span>.<span class="number">0.0</span></span><br><span class="line">  authentication-mode simple plain huawei</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>（2）<strong>接口认证</strong>：只有开启了认证的接口才需要进行认证.</p>
+<ul>
+<li>OSPF配置：<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">interface GigabitEthernet0/<span class="number">0</span>/<span class="number">0</span></span><br><span class="line">    ip address <span class="number">10.1</span>.<span class="number">12.1</span> <span class="number">255.255</span>.<span class="number">255.0</span> </span><br><span class="line">    ospf authentication-mode md5 <span class="number">1</span> cipher huawei</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>（3）如果设备<strong>既开启了接口认证，又开启了区域认证</strong>，接口认证优先..<br><br></p>
+<ul>
+<li>OSPF配置<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ospf <span class="number">1</span> router-id <span class="number">1.1</span>.<span class="number">1.1</span>   //设置OSPF的router id</span><br><span class="line"> area <span class="number">0.0</span>.<span class="number">0.0</span>   //设置OSPF的区域</span><br><span class="line">  network <span class="number">10.1</span>.<span class="number">12.1</span> <span class="number">0.0</span>.<span class="number">0.0</span>（用来限制宣告的范围）  //宣告本设备存在的IP地址</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<ul>
+<li>检查：<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dis ospf peer brief   //检查OSPF的邻居</span><br><span class="line">dis ospf error  //查看邻居建立不起的因素</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="930" height="286" src="//music.163.com/outchain/player?type=2&id=1334127558&auto=1&height=66"></iframe>
+
 
     
 
@@ -371,7 +422,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/" title="Linux配置SSH Key到GitHub" target="_blank">https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/</a>
+          <a href="https://xin-mr.github.io/2020/03/09/OSPF路由知识，你知道多少？/" title="OSPF路由知识，你知道多少？" target="_blank">https://xin-mr.github.io/2020/03/09/OSPF路由知识，你知道多少？/</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -390,7 +441,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">IP路由</a>
         		</li>
       		
 		</ul>
@@ -446,7 +497,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2020/03/09/OSPF路由知识，你知道多少？/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -461,18 +512,18 @@
 
 <nav id="article-nav">
   
-    <a href="/2018/04/20/Linux或Win下安装node和npm/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/03/09/嵌入式STM32-一/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Linux或Win下安装node和npm
+          嵌入式STM32(一)
         
       </div>
     </a>
   
   
-    <a href="/2018/04/17/Linux下安装Git/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Linux下安装Git</div>
+    <a href="/2019/08/01/hexo主题之hexo-theme-yilia-plus/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo主题之hexo-theme-yilia-plus</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -513,9 +564,9 @@
     <script src="/lib/gitment.js"></script>
   
   <script>
-    <!-- id: "Linux配置SSH Key到GitHub" -->
+    <!-- id: "OSPF路由知识，你知道多少？" -->
     var gitment = new Gitment({
-      id: "20180417144840",
+      id: "20200309114553",
       owner: 'JoeyBling',
       repo: 'yilia-plus-demo',
       oauth: {

@@ -6,31 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://xin-mr.github.io">
-  <title>Linux配置SSH Key到GitHub | 树懒鑫的个人博客</title>
+  <title>嵌入式STM32(一) | 树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
-<meta name="keywords" content="Linux">
+  <meta name="description" content="树懒鑫的个人技术博客">
+<meta name="keywords" content="嵌入式,计算机网络,树懒鑫,树懒鑫的技术博客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux配置SSH Key到GitHub">
-<meta property="og:url" content="https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/index.html">
+<meta property="og:title" content="嵌入式STM32(一)">
+<meta property="og:url" content="https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
-<meta property="og:description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
+<meta property="og:description" content="树懒鑫的个人技术博客">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-7398d3f9f1eef72c.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-2c142d50f896e48b.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-062ea02946eb9af5.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d2a6a8697131e8d7.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-1a8f4cd790d9d667.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-cdbdf7fd81c8ac11.png">
-<meta property="og:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-5310d1ab738cb79a.png">
-<meta property="og:updated_time" content="2020-03-07T05:07:41.499Z">
+<meta property="og:updated_time" content="2020-03-09T03:50:08.107Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Linux配置SSH Key到GitHub">
-<meta name="twitter:description" content="1、生成SSH Key首先检查下本机是否已经安装了SSH，在终端输入ssh即可：  如果没有安装进行yum安装">
-<meta name="twitter:image" content="https://xin-mr.github.io/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png">
+<meta name="twitter:title" content="嵌入式STM32(一)">
+<meta name="twitter:description" content="树懒鑫的个人技术博客">
   
     <link rel="alternative" href="/atom.xml" title="树懒鑫的个人博客" type="application/atom+xml">
   
@@ -252,14 +243,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Linux配置SSH-Key到GitHub" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-嵌入式STM32-一" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      Linux配置SSH Key到GitHub
+      嵌入式STM32(一)
     </h1>
   
 
@@ -271,8 +262,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2018/04/17/Linux配置SSH-Key到GitHub/" class="archive-article-date">
-        <time datetime="2018-04-17T06:48:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-17</time>
+<a href="/2020/03/09/嵌入式STM32-一/" class="archive-article-date">
+        <time datetime="2020-03-09T03:50:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
 </a>
 
   
@@ -285,7 +276,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">209字</span>
+      <span class="post-count">0字</span>
     </span>
   </span>
 
@@ -305,27 +296,7 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h4 id="1、生成SSH-Key"><a href="#1、生成SSH-Key" class="headerlink" title="1、生成SSH Key"></a>1、生成SSH Key</h4><p><strong>首先检查下本机是否已经安装了SSH，在终端输入ssh即可：</strong></p>
-<p><img src="/yilia-plus-demo/images/2743275-d5ee041fc6a3b53e.png" alt></p>
-<p>如果没有安装进行yum安装</p>
-<a id="more"></a>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> yum -y install openssh-clients</span></span><br></pre></td></tr></table></figure>
-
-<h6 id="接下来就是生成ssh-key了，输入ssh-keygen-t-rsa，然后连续按回车键三次（注意：千万不要输入密码！）。"><a href="#接下来就是生成ssh-key了，输入ssh-keygen-t-rsa，然后连续按回车键三次（注意：千万不要输入密码！）。" class="headerlink" title="接下来就是生成ssh key了，输入ssh-keygen -t rsa，然后连续按回车键三次（注意：千万不要输入密码！）。"></a>接下来就是生成<code>ssh key</code>了，输入<code>ssh-keygen -t rsa</code>，然后连续按回车键三次（注意：千万不要输入密码！）。</h6><p><img src="/yilia-plus-demo/images/2743275-7398d3f9f1eef72c.png" alt></p>
-<p><code>id_rsa.pub</code>为公钥，<code>id_rsa</code>为私钥，它们都是隐藏文件。<br>那么如何查看它们的内容呢？只需要继续执行以下两条命令即可。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> .ssh/</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> cat id_rsa.pub</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/yilia-plus-demo/images/2743275-2c142d50f896e48b.png" alt></p>
-<h4 id="2、添加SSH-Key到GitHub上"><a href="#2、添加SSH-Key到GitHub上" class="headerlink" title="2、添加SSH Key到GitHub上"></a>2、添加SSH Key到GitHub上</h4><p><img src="/yilia-plus-demo/images/2743275-062ea02946eb9af5.png" alt></p>
-<p>接着执行下面操作：</p>
-<p><img src="/yilia-plus-demo/images/2743275-d2a6a8697131e8d7.png" alt></p>
-<p>点击New SSH Key按钮后进行Key的填写操作，完成SSH Key的添加。如下图：<br><img src="/yilia-plus-demo/images/2743275-1a8f4cd790d9d667.png" alt></p>
-<p><img src="/yilia-plus-demo/images/2743275-cdbdf7fd81c8ac11.png" alt><br>添加SSH Key成功之后，继续输入命令进行测试。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ssh -T git@github.com</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/yilia-plus-demo/images/2743275-5310d1ab738cb79a.png" alt></p>
-<p>出现上图结果则说明添加SSH Key成功。</p>
-
+    
     
 
     
@@ -371,7 +342,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/" title="Linux配置SSH Key到GitHub" target="_blank">https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/</a>
+          <a href="https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/" title="嵌入式STM32(一)" target="_blank">https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -385,17 +356,6 @@
   <div class="article-info article-info-index">
     
     
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
     
 
     
@@ -446,7 +406,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2018/04/17/Linux配置SSH-Key到GitHub/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -461,18 +421,9 @@
 
 <nav id="article-nav">
   
-    <a href="/2018/04/20/Linux或Win下安装node和npm/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Linux或Win下安装node和npm
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/04/17/Linux下安装Git/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Linux下安装Git</div>
+    <a href="/2020/03/09/OSPF路由知识，你知道多少？/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">OSPF路由知识，你知道多少？</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -513,9 +464,9 @@
     <script src="/lib/gitment.js"></script>
   
   <script>
-    <!-- id: "Linux配置SSH Key到GitHub" -->
+    <!-- id: "嵌入式STM32(一)" -->
     var gitment = new Gitment({
-      id: "20180417144840",
+      id: "20200309115008",
       owner: 'JoeyBling',
       repo: 'yilia-plus-demo',
       oauth: {
