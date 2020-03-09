@@ -6,22 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://xin-mr.github.io">
-  <title>Hexo博客使用gulp压缩静态资源 | 树懒鑫的个人博客</title>
+  <title>music | 树懒鑫的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="Hexo博客使用gulp压缩静态资源">
-<meta name="keywords" content="Hexo">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hexo博客使用gulp压缩静态资源">
-<meta property="og:url" content="https://xin-mr.github.io/2019/07/22/Hexo博客使用gulp压缩静态资源/index.html">
+  <meta name="keywords" content="嵌入式,计算机网络,树懒鑫,树懒鑫的技术博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="music">
+<meta property="og:url" content="https://xin-mr.github.io/music/index.html">
 <meta property="og:site_name" content="树懒鑫的个人博客">
-<meta property="og:description" content="Hexo博客使用gulp压缩静态资源">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-03-07T05:07:41.494Z">
+<meta property="og:updated_time" content="2020-03-09T05:59:09.111Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo博客使用gulp压缩静态资源">
-<meta name="twitter:description" content="Hexo博客使用gulp压缩静态资源">
+<meta name="twitter:title" content="music">
   
     <link rel="alternative" href="/atom.xml" title="树懒鑫的个人博客" type="application/atom+xml">
   
@@ -249,14 +246,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Hexo博客使用gulp压缩静态资源" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      Hexo博客使用gulp压缩静态资源
+      music
     </h1>
   
 
@@ -268,8 +265,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2019/07/22/Hexo博客使用gulp压缩静态资源/" class="archive-article-date">
-        <time datetime="2019-07-22T08:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-22</time>
+<a href="/music/index.html" class="archive-article-date">
+        <time datetime="2020-03-06T15:16:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-06</time>
 </a>
 
   
@@ -282,7 +279,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">643字</span>
+      <span class="post-count">0字</span>
     </span>
   </span>
 
@@ -291,7 +288,7 @@
     <span class="post-meta-item-icon">
       <i class="icon-book icon"></i>
       <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">3分</span>
+      <span class="post-count">1分</span>
     </span>
   </span>
 </div>
@@ -302,36 +299,7 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h5 id="Tips-前导必备"><a href="#Tips-前导必备" class="headerlink" title="Tips:前导必备"></a>Tips:前导必备</h5><ul>
-<li><a href="https://zhousiwei.gitee.io/" target="_blank" rel="noopener">博主博客地址</a></li>
-<li>博主使用的是<strong><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">hexo-theme-yilia-plus</a></strong>主题</li>
-</ul>
-<hr>
-<h3 id="1、全局安装gulp"><a href="#1、全局安装gulp" class="headerlink" title="1、全局安装gulp"></a>1、全局安装gulp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp -g</span><br><span class="line"><span class="comment"># 查看版本</span></span><br><span class="line">gulp -v</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-<h3 id="2、安装gulp插件"><a href="#2、安装gulp插件" class="headerlink" title="2、安装gulp插件"></a>2、安装gulp插件</h3><blockquote>
-<p>在站点根目录下安装</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp --save</span><br><span class="line">npm install gulp-minify-css --save</span><br><span class="line">npm install gulp-uglify --save</span><br><span class="line">npm install gulp-htmlmin --save</span><br><span class="line">npm install gulp-htmlclean --save</span><br><span class="line">npm install gulp-imagemin --save</span><br><span class="line"><span class="comment"># 解决【Gulp打包问题】 GulpUglifyError: unable to minify JavaScript</span></span><br><span class="line"><span class="comment"># 解决 gulp-uglify 压缩JavaScript 不兼容 es5 语法的问题</span></span><br><span class="line">npm install babel-core@6.26.3 --save</span><br><span class="line">npm install gulp-babel@7.0.1 --save</span><br><span class="line">npm install babel-preset-es2015@6.24.1 --save</span><br><span class="line"><span class="comment"># gulp-babel 取消严格模式方法("use strict")</span></span><br><span class="line">npm install babel-plugin-transform-remove-strict-mode --save</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>问题：如果安装<code>gulp-imagemin</code>错误请执行以下语句<br><code>sudo npm i gulp-imagemin --unsafe-perms</code></p>
-</blockquote>
-<h3 id="3、创建gulpfile-js文件"><a href="#3、创建gulpfile-js文件" class="headerlink" title="3、创建gulpfile.js文件"></a>3、创建<code>gulpfile.js</code>文件</h3><blockquote>
-<p>在 Hexo 站点下新建<code>gulpfile.js</code>文件，文件内容如下：</p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</span><br><span class="line"><span class="keyword">var</span> minifycss = <span class="built_in">require</span>(<span class="string">'gulp-minify-css'</span>);</span><br><span class="line"><span class="keyword">var</span> uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</span><br><span class="line"><span class="keyword">var</span> htmlmin = <span class="built_in">require</span>(<span class="string">'gulp-htmlmin'</span>);</span><br><span class="line"><span class="keyword">var</span> htmlclean = <span class="built_in">require</span>(<span class="string">'gulp-htmlclean'</span>);</span><br><span class="line"><span class="keyword">var</span> imagemin = <span class="built_in">require</span>(<span class="string">'gulp-imagemin'</span>);</span><br><span class="line"><span class="keyword">var</span> babel = <span class="built_in">require</span>(<span class="string">'gulp-babel'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩css文件</span></span><br><span class="line">gulp.task(<span class="string">'minify-css'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">done</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.css'</span>)</span><br><span class="line">        .pipe(minifycss())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">    done();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩html文件</span></span><br><span class="line">gulp.task(<span class="string">'minify-html'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">done</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.html'</span>)</span><br><span class="line">        .pipe(htmlclean())</span><br><span class="line">        .pipe(htmlmin(&#123;</span><br><span class="line">            removeComments: <span class="literal">true</span>,</span><br><span class="line">            minifyJS: <span class="literal">true</span>,</span><br><span class="line">            minifyCSS: <span class="literal">true</span>,</span><br><span class="line">            minifyURLs: <span class="literal">true</span>,</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">    done();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩js文件</span></span><br><span class="line">gulp.task(<span class="string">'minify-js'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">done</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src([<span class="string">'./public/**/*.js'</span>, <span class="string">'!./public/**/*.min.js'</span>])</span><br><span class="line">        .pipe(babel(&#123;</span><br><span class="line">            <span class="comment">//将ES6代码转译为可执行的JS代码</span></span><br><span class="line">            presets: [<span class="string">'es2015'</span>] <span class="comment">// es5检查机制</span></span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">    done();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩 public/images 目录内图片(Version&lt;3)</span></span><br><span class="line"><span class="comment">// gulp.task('minify-images', function () &#123;</span></span><br><span class="line"><span class="comment">//     gulp.src('./public/images/**/*.*')</span></span><br><span class="line"><span class="comment">//         .pipe(imagemin(&#123;</span></span><br><span class="line"><span class="comment">//             optimizationLevel: 5, //类型：Number  默认：3  取值范围：0-7（优化等级）</span></span><br><span class="line"><span class="comment">//             progressive: true, //类型：Boolean 默认：false 无损压缩jpg图片</span></span><br><span class="line"><span class="comment">//             interlaced: false, //类型：Boolean 默认：false 隔行扫描gif进行渲染</span></span><br><span class="line"><span class="comment">//             multipass: false, //类型：Boolean 默认：false 多次优化svg直到完全优化</span></span><br><span class="line"><span class="comment">//         &#125;))</span></span><br><span class="line"><span class="comment">//         .pipe(gulp.dest('./public/images'));</span></span><br><span class="line"><span class="comment">// &#125;);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩 public/images 目录内图片(Version&gt;3)</span></span><br><span class="line">gulp.task(<span class="string">'minify-images'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">done</span>) </span>&#123;</span><br><span class="line">    gulp.src(<span class="string">'./public/images/**/*.*'</span>)</span><br><span class="line">        .pipe(imagemin([</span><br><span class="line">            imagemin.gifsicle(&#123;<span class="attr">interlaced</span>: <span class="literal">true</span>&#125;),</span><br><span class="line">            imagemin.jpegtran(&#123;<span class="attr">progressive</span>: <span class="literal">true</span>&#125;),</span><br><span class="line">            imagemin.optipng(&#123;<span class="attr">optimizationLevel</span>: <span class="number">5</span>&#125;),</span><br><span class="line">            imagemin.svgo(&#123;</span><br><span class="line">                plugins: [</span><br><span class="line">                    &#123;<span class="attr">removeViewBox</span>: <span class="literal">true</span>&#125;,</span><br><span class="line">                    &#123;<span class="attr">cleanupIDs</span>: <span class="literal">false</span>&#125;</span><br><span class="line">                ]</span><br><span class="line">            &#125;)</span><br><span class="line">        ]))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public/images'</span>));</span><br><span class="line">    done();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//4.0以前的写法 </span></span><br><span class="line"><span class="comment">//gulp.task('default', [</span></span><br><span class="line"><span class="comment">//  'minify-html', 'minify-css', 'minify-js', 'minify-images'</span></span><br><span class="line"><span class="comment">//]);</span></span><br><span class="line"><span class="comment">//4.0以后的写法</span></span><br><span class="line"><span class="comment">// 执行 gulp 命令时执行的任务</span></span><br><span class="line">gulp.task(<span class="string">'default'</span>, gulp.series(gulp.parallel(<span class="string">'minify-html'</span>, <span class="string">'minify-css'</span>, <span class="string">'minify-js'</span>, <span class="string">'minify-images'</span>)), <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"----------gulp Finished----------"</span>);</span><br><span class="line">    <span class="comment">// Do something after a, b, and c are finished.</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、创建-babelrc文件"><a href="#4、创建-babelrc文件" class="headerlink" title="4、创建.babelrc文件"></a>4、创建<code>.babelrc</code>文件</h3><blockquote>
-<p>在 Hexo 站点下新建<code>.babelrc</code>文件，文件内容如下：</p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">'presets'</span>: [<span class="string">'es2015'</span>],</span><br><span class="line">    <span class="string">"plugins"</span>: [<span class="string">"transform-remove-strict-mode"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="5、静态资源压缩"><a href="#5、静态资源压缩" class="headerlink" title="5、静态资源压缩"></a>5、静态资源压缩</h3><blockquote>
-<p>只需要每次在执行 <code>generate</code> 命令后执行 <code>gulp</code> 就可以实现对静态资源的压缩</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">gulp</span><br></pre></td></tr></table></figure>
+    <center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=0&id=2124034828&auto=1&height=430"></iframe></center>
     
 
     
@@ -377,7 +345,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="https://xin-mr.github.io/2019/07/22/Hexo博客使用gulp压缩静态资源/" title="Hexo博客使用gulp压缩静态资源" target="_blank">https://xin-mr.github.io/2019/07/22/Hexo博客使用gulp压缩静态资源/</a>
+          <a href="https://xin-mr.github.io/music/index.html" title="music" target="_blank">https://xin-mr.github.io/music/index.html</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -391,17 +359,6 @@
   <div class="article-info article-info-index">
     
     
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
     
 
     
@@ -452,7 +409,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/2019/07/22/Hexo博客使用gulp压缩静态资源/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://xin-mr.github.io/music/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -464,25 +421,6 @@
   </div>
 </article>
 
-
-<nav id="article-nav">
-  
-    <a href="/2019/07/23/Hexo博客配置RSS插件/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Hexo博客配置RSS插件
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/06/05/Git彻底删除历史提交记录的方法/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Git彻底删除历史提交记录的方法</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
 
 
 <aside class="wrap-side-operation">
@@ -552,7 +490,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
