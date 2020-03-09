@@ -32,9 +32,9 @@
     </summary>
     
     
-      <category term="博文笔记" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="无线通信" scheme="https://xin-mr.github.io/tags/%E6%97%A0%E7%BA%BF%E9%80%9A%E4%BF%A1/"/>
+    
+      <category term="博文笔记" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -43,9 +43,9 @@
     <link href="https://xin-mr.github.io/2020/03/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86-MOOC%E8%AF%BE%E4%BB%B6/"/>
     <id>https://xin-mr.github.io/2020/03/09/嵌入式系统原理-MOOC课件/</id>
     <published>2020-03-09T05:34:12.734Z</published>
-    <updated>2020-03-09T07:40:06.208Z</updated>
+    <updated>2020-03-09T07:52:42.215Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="lala"><a href="#lala" class="headerlink" title="lala"></a>lala</h1><h2 id="第一单元-基础与硬件"><a href="#第一单元-基础与硬件" class="headerlink" title="第一单元 基础与硬件"></a>第一单元 基础与硬件</h2><p>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZLBmQwQ75eTCBin9ucC%C2%A0" target="_blank" rel="noopener">1–01  嵌入式系统概述</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DYtqFWcQ75eTCBjn9ucC" target="_blank" rel="noopener">1–02  嵌入式系统常用术语</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DR0fAl4Q75eTCBjy9ucC" target="_blank" rel="noopener">1–03  C语言语法概要</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DebkScYQ75eTCBj69ucC" target="_blank" rel="noopener">1–04  指令系统简介</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/Dbf00kwQ75eTCBiJ9-cC" target="_blank" rel="noopener">1–05  存储映像、中断源与硬件最小系统</a></p><br><h2 id="第二单元-入门与软件框架"><a href="#第二单元-入门与软件框架" class="headerlink" title="第二单元 入门与软件框架"></a>第二单元 入门与软件框架</h2><p>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DS3HYcwQ75eTCBiP9-cC" target="_blank" rel="noopener">2–06  GPIO及基本打通原理</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DSq4NP0Q75eTCBic9-cC" target="_blank" rel="noopener">2–07  程序的基本调试方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DbV5wWgQ75eTCBij9-cC" target="_blank" rel="noopener">2–08  用构件方法进行GPIO应用编程</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZKb-cAQ75eTCBir9-cC" target="_blank" rel="noopener">2–09  分析一个汇编实例</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DSipg6QQ75eTCBi39-cC" target="_blank" rel="noopener">2–10  嵌入式硬件构件与底层驱动构件</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DQ3SFAQQ75eTCBi99-cC" target="_blank" rel="noopener">2–11  串行通信基础知识与UART驱动使用方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DQ3SFAQQ75eTCBi99-cC" target="_blank" rel="noopener">2–12  中断机制与编程步骤</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DbEAGJkQ75eTCBjK9-cC" target="_blank" rel="noopener">2–13  UART驱动构件的设计方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZavgkYQ75eTCBjSpewC" target="_blank" rel="noopener">2–14  C#快速入门与串口通信编程方法</a></p><p><br><br><br>&emsp;&emsp;课件来源于中国大学MOOC，本意为了在线阅读课件、方便学习，如有侵权请联系我以指正。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="lala"><a href="#lala" class="headerlink" title="lala"></a>lala</h1><h2 id="第一单元-基础与硬件"><a href="#第一单元-基础与硬件" class="headerlink" title="第一单元 基础与硬件"></a>第一单元 基础与硬件</h2><p>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZLBmQwQ75eTCBin9ucC%C2%A0" target="_blank" rel="noopener">1–01  嵌入式系统概述</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DYtqFWcQ75eTCBjn9ucC" target="_blank" rel="noopener">1–02  嵌入式系统常用术语</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DR0fAl4Q75eTCBjy9ucC" target="_blank" rel="noopener">1–03  C语言语法概要</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DebkScYQ75eTCBj69ucC" target="_blank" rel="noopener">1–04  指令系统简介</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/Dbf00kwQ75eTCBiJ9-cC" target="_blank" rel="noopener">1–05  存储映像、中断源与硬件最小系统</a></p><a id="more"></a><br><h2 id="第二单元-入门与软件框架"><a href="#第二单元-入门与软件框架" class="headerlink" title="第二单元 入门与软件框架"></a>第二单元 入门与软件框架</h2><p>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DS3HYcwQ75eTCBiP9-cC" target="_blank" rel="noopener">2–06  GPIO及基本打通原理</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DSq4NP0Q75eTCBic9-cC" target="_blank" rel="noopener">2–07  程序的基本调试方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DbV5wWgQ75eTCBij9-cC" target="_blank" rel="noopener">2–08  用构件方法进行GPIO应用编程</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZKb-cAQ75eTCBir9-cC" target="_blank" rel="noopener">2–09  分析一个汇编实例</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DSipg6QQ75eTCBi39-cC" target="_blank" rel="noopener">2–10  嵌入式硬件构件与底层驱动构件</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DQ3SFAQQ75eTCBi99-cC" target="_blank" rel="noopener">2–11  串行通信基础知识与UART驱动使用方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DQ3SFAQQ75eTCBi99-cC" target="_blank" rel="noopener">2–12  中断机制与编程步骤</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DbEAGJkQ75eTCBjK9-cC" target="_blank" rel="noopener">2–13  UART驱动构件的设计方法</a><br>&emsp;&emsp;<a href="https://www.jianguoyun.com/p/DZavgkYQ75eTCBjSpewC" target="_blank" rel="noopener">2–14  C#快速入门与串口通信编程方法</a></p><p><br><br><br>&emsp;&emsp;课件来源于中国大学MOOC，本意为了在线阅读课件、方便学习，如有侵权请联系我以指正。</p>]]></content>
     
     <summary type="html">
     
@@ -56,7 +56,7 @@
     
       <category term="嵌入式" scheme="https://xin-mr.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-      <category term="博文笔记" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+      <category term="博文" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87/"/>
     
   </entry>
   
@@ -88,7 +88,7 @@
     <link href="https://xin-mr.github.io/2020/03/09/%E5%B5%8C%E5%85%A5%E5%BC%8FSTM32-%E4%B8%80/"/>
     <id>https://xin-mr.github.io/2020/03/09/嵌入式STM32-一/</id>
     <published>2020-03-09T03:50:08.106Z</published>
-    <updated>2020-03-09T07:34:26.982Z</updated>
+    <updated>2020-03-09T07:52:39.940Z</updated>
     
     <content type="html"><![CDATA[<h1 id="lala"><a href="#lala" class="headerlink" title="lala"></a>lala</h1><p>嵌入式STM32笔记</p><a id="more"></a><p>lala</p>]]></content>
     
@@ -101,9 +101,7 @@
     
       <category term="嵌入式" scheme="https://xin-mr.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-      <category term="STM32" scheme="https://xin-mr.github.io/tags/STM32/"/>
-    
-      <category term="博文笔记" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+      <category term="博文" scheme="https://xin-mr.github.io/tags/%E5%8D%9A%E6%96%87/"/>
     
   </entry>
   
